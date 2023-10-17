@@ -1,0 +1,179 @@
+img {
+    width: 10%
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    grid-gap: 6rem;
+    padding: 2rem;
+}
+
+/* Navagation styles */
+nav {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*flex-direction: column;*/
+    /*text-align: center;*/
+    /*align-items: center;*/
+    background-color: indigo;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navagation link styles */
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border: 1px solid white;
+}
+
+.active {
+    color: yellow;
+}
+
+@media (min-width: 648px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
+
+nav ul li {
+    flex: 1 1 100%;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: lightgrey;
+}
+
+/* Card heading styles */
+.card h3 {
+    text-align: center;
+    background-color: indigo;
+    color: white;
+    padding: 1rem;
+    margin-top: 0%;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+}
+
+.main ul {
+    list-style-type: none;
+}
+
+.cardLearningActivities {
+    text-align: center;
+    background-color: indigo;
+    color: white;
+}
+
+/* Card styles */
+.card {
+    border: 2px solid indigo;
+}
+
+/* Footer image styles */
+footer p img {
+    width: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: indigo;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* hamburger menu styles*/
+/*#hamburger-menu {*/
+   /* display: none;*/
+    /* Initially hide the hamburger menu on larger screens */
+
+
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    transition: 0.4s;
+}
+
+/* Styling for the menu when it's open */
+#main-menu.showMenu {
+    display: block;
+}
+
+#menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+#menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+}
+
+#menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/*.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+}*/
+
+.closeIcon {
+    display: none;
+}
+
+/*.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+}*/
+
+/*.showMenu {
+    transform: translateY(0);
+}*/
