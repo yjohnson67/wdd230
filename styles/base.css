@@ -19,15 +19,16 @@ nav {
     /*text-align: center;*/
     /*align-items: center;*/
     background-color: indigo;
-    max-width: 800px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
-nav ul {
+nav {
     list-style-type: none;
     display: flex;
     flex-direction: column;
 }
+
 
 /* Navagation link styles */
 nav a {
@@ -46,11 +47,25 @@ nav a:hover {
     color: yellow;
 }
 
+.menuIcon.material-icons {
+    display: block;
+}
+
 @media (min-width: 648px) {
-    nav ul {
+    nav {
         flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menuIcon.material-icons {
+        display: none;
+    }
+
+    .closeIcon.material-icons {
+        display: none;
     }
 }
+
 
 nav ul li {
     flex: 1 1 100%;
@@ -111,14 +126,16 @@ footer {
 
 /* hamburger menu styles*/
 /*#hamburger-menu {*/
-   /* display: none;*/
-    /* Initially hide the hamburger menu on larger screens */
+/* display: none;*/
+/* Initially hide the hamburger menu on larger screens */
 
 
 .menu-icon {
+
     cursor: pointer;
     padding: 10px;
 }
+
 
 .bar {
     width: 25px;
@@ -130,6 +147,10 @@ footer {
 /* Styling for the menu when it's open */
 #main-menu.showMenu {
     display: block;
+}
+
+#main-menu.active {
+    display: none;
 }
 
 #menu-icon.open .bar:nth-child(1) {
@@ -144,7 +165,7 @@ footer {
     transform: rotate(45deg) translate(-5px, -6px);
 }
 
-/*.hamburger {
+.hamburger {
     position: fixed;
     z-index: 100;
     top: 1rem;
@@ -153,7 +174,7 @@ footer {
     border: black solid 1px;
     background: white;
     cursor: pointer;
-}*/
+}
 
 .closeIcon {
     display: none;
