@@ -26,4 +26,43 @@ menuItems.forEach(function (menuItem) {
 })
   window.addEventListener('load', function () {
   // Your JavaScript code here
-});
+  });
+// Function to track page visits
+function trackPageVisits() {
+  let pageVisits = localStorage.getItem('pageVisits');
+  if (!pageVisits) {
+    pageVisits = 1;
+  } else {
+    pageVisits = parseInt(pageVisits) + 1;
+  }
+  localStorage.setItem('pageVisits', pageVisits);
+
+  // Display the visit count on the webpage
+  const visitCountElement = document.getElementById('visit-count');
+  visitCountElement.innerHTML = `Page Visits: ${pageVisits}`;
+}
+
+// Call the trackPageVisits function to track and display page visits
+trackPageVisits();
+// Replace 'YOUR_API_KEY' with your actual API key
+const apiKey = 'YOUR_API_KEY';
+
+// Function to fetch weather data and update the weather-info div
+function fetchWeatherData() {
+  fetch(`https://api.openweathermap.org/data/2.5/weather?q=Washougal,US&appid=${apiKey}`)
+    .then(response => response.json())
+    .then(data => {
+      const weatherInfo = document.getElementById('weather-info');
+      const temperature = Math.round(data.main.temp - 273.15); // Convert Kelvin to Celsius
+      const description = data.weather[0].description;
+      const cityName = data.name;
+      
+      weatherInfo.innerHTML = `Current Weather in ${cityName}: ${temperature}°C, ${description}`;
+    })
+    .catch(error => {
+      console.error('Error fetching weather data:', error);
+    });
+}
+
+// Call the fetchWeatherData function to fetch and display weather data
+fetchWeatherData();
