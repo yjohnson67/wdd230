@@ -86,6 +86,30 @@ h2 {
     text-decoration-color: lightgrey;
 }
 
+.section-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+    .section-container {
+        flex-direction: column;
+    }
+}
+
+.card {
+    margin: 0 20px;
+    /* padding: 0 20px; */
+}
+
+.learningActivities {
+    width: 60%;
+}
+
+.information {
+    width: 30%;
+}
+
 /* Card heading styles */
 .card h3 {
     text-align: center;
