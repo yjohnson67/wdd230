@@ -198,6 +198,7 @@ footer {
 }
 
 .hamburger {
+    display: block;
     position: fixed;
     z-index: 100;
     top: 1rem;
@@ -212,7 +213,7 @@ footer {
     display: none;
 }
 
-/*.menu {
+#main-menu {
     position: fixed;
     transform: translateY(-100%);
     transition: transform 0.2s;
@@ -225,7 +226,7 @@ footer {
     color: white;
     list-style: none;
     padding-top: 4rem;
-}*/
+}
 
 /*.showMenu {
     transform: translateY(0);
