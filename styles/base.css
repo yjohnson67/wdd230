@@ -209,6 +209,13 @@ footer {
     cursor: pointer;
 }
 
+nav a::before {
+    content: "➤";
+    /* Unicode character for a right-pointing arrow (you can change this) */
+    margin-right: 5px;
+    /* Adjust the spacing as needed */
+}
+
 .closeIcon {
     display: none;
 }
