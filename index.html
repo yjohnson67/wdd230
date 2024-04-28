@@ -5,7 +5,7 @@
     <title> WDD230 Course Home</title>
     <meta name="descritpion" content="WDD 230 - Web Frontend Development. Yvette Johnson's course assignment portal.">
     <meta name="author" content="Yvette Johnson">
-    <link rel="stylesheets" href="styles/base.css">
+    <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
    
 </head>
@@ -16,14 +16,18 @@
         <h1>Yvette Johnson</h1>
     </header>
 
-    <nav>
+    <nav> 
         <ul>
-
             <li><a href="#">Home</a></li>
+
             <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+
             <li><a href="chamber/">Chamber</a></li>
+
             <li><a href="https://byui.edu/" target="_blank">BYU-Idaho</a></li>
+
             <li><a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank">Scriptures</a></li>
+                   
         </ul>
     </nav>
 
@@ -32,20 +36,33 @@
 
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
+            <ol>
+                <li>
+                    <a hfef="assignment 1">Assignment 1</a>
+                </li>
+                <li>
+                    <a hfef="assignment 2">Assignment 2</a>
+                </li>
+                <li></li>
+                <li></li>
                 <!--List the items that will be populated throughout the course-->
-            </ul>
+            </ol>
         </section>
 
         <section class="card">
             <h3>Information</h3>
+                <p id="weather">Loading weather...</p>
+                <!-- Placeholder for weather, number of visits, etc... -->
+                <a href="https://www.hitwebcounter.com" target="_blank">
+                <img src="https://hitwebcounter.com/counter/counter.php?page=12939691&style=0002&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
             <!--Placeholder for weather, number of visits, etc...-->
         </section>
 
     </main>
  <footer>
     <p>&copy; <span id="currentYear"></span> Yvette Johnson, United States</p>
-    <p id="lastModified"></p>
+    <img  id="flag" src="Images/flag.png" alt="US Flag">
+    <p id="mod">lastModified</p>
  </footer>
    <!-- JavaScript -->
    <script src="scripts/getdates.js" defer></script>
