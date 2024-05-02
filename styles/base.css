@@ -22,7 +22,7 @@ main {
 
 /* Style header */
 header{
-    background-color: #b1b3aa;
+    background-color: #555752;
     grid-column: 2/3;
     grid-row: 1/2;
 }
@@ -86,8 +86,3 @@ footer {
 
 }
 
-/* Style course links list */
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
