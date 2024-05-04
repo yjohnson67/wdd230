@@ -45,12 +45,30 @@ ul{
 }
 /* Style navigation */
 nav {
-    
+    display: flex;
     list-style-type: none;
     grid-column: 2/3;
+    text-align: center;
     grid-row: 2/3;
+    padding: 1rem; 
     background-color:rgb(5, 106, 119);
-    
+    flex-direction: column; 
+    align-items: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+nav a:hover {
+    text-decoration: overline;
+}
+nav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
 }
 /* Style main sections */
 main {
@@ -86,3 +104,11 @@ footer {
 
 }
 
+@media (min-width: 640px) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav a {
+        padding: 0.5rem;
+    }
+}
