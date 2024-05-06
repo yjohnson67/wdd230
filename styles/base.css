@@ -104,11 +104,4 @@ footer {
 
 }
 
-@media (min-width: 640px) {
-    nav ul {
-        flex-direction: row;
-    }
-    nav a {
-        padding: 0.5rem;
-    }
-}
+

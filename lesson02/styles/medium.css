@@ -1,4 +1,4 @@
-@media (min-width: 900px) {
+@media (min-width: 650px) {
     nav ul {
         flex-direction: row;
     }
