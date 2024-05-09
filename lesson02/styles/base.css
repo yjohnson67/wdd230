@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: rgb(5, 106, 119);
+    /*color: #333;*/
+    display: grid;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    color: black;
+    font-size: 1.5em;
+    box-shadow: 15px grey;
+}
+
+h2.hover {
+    
+}
+
+.site {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+p{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+img {
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #555752;
+    color: #fff;
+}
+
+#flag{
+    height: 30px;
+    padding-left: 10px;
+}
