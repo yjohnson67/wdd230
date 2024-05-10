@@ -7,39 +7,37 @@
 
 /* Set font family */
 body {
+    margin: 2rem, 0, 2rem, 0;
     display: grid;
     align-items: center;
-    grid-template-columns: 25em 1fr 25em;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 1fr;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Center the main content horizontally */
 main {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    align-content: center;
 }
 
 /* Style header */
 header{
+    display: flex;
+    justify-content: center;
     background-color: #555752;
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
 
 header img {
     height: 200px;
     border-radius: 100%; /* Make the image round */
+    margin: 3rem;
 }
 
 header h1 {
-
-    grid-column: 3/3;
-    grid-row: 2/2;
+    align-content: center;
     text-align: center;
     font-size: 45px;
 }
-ul{
+.card ul{
     list-style-type:none;
    
 }
@@ -47,9 +45,7 @@ ul{
 nav {
     display: flex;
     list-style-type: none;
-    grid-column: 2/3;
     text-align: center;
-    grid-row: 2/3;
     padding: 1rem; 
     background-color:rgb(5, 106, 119);
     flex-direction: column; 
@@ -57,8 +53,6 @@ nav {
 }
 nav ul {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
 }
 nav a:hover {
     text-decoration: overline;
@@ -69,12 +63,6 @@ nav a {
     text-align: center;
     padding: 1rem;
     text-decoration: none;
-}
-/* Style main sections */
-main {
-    display: grid;
-    grid-template-columns: 1fr; /* Display main sections in a single column */
-    gap: 20px; /* Add spacing between sections */
 }
 
 .card {
@@ -91,8 +79,6 @@ main {
 
 /* Style footer */
 footer {
-    grid-column: 2/3;
-    grid-row: 4/5;
     text-align: center;
     padding: 20px 0;
     background-color: rgb(5, 106, 119);

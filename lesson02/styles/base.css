@@ -28,13 +28,12 @@ h2.hover {
     padding: 10px 20px;
 }
 
-p{
-    margin-left: 250px;
-    margin-right: 250px;
+section {
+   padding: 1rem;
 }
 
 img {
-    height: 500px;
+    width: 200px;
 }
 
 footer {
@@ -45,6 +44,6 @@ footer {
 }
 
 #flag{
-    height: 30px;
-    padding-left: 10px;
+    height: 2rem;
+    
 }
