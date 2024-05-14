@@ -89,6 +89,10 @@ footer {
     background-color: rgb(5, 106, 119);
     /*color: #fff;*/
 }
+
+footer p {
+    color: white;
+}
 #flag{
     height: 30px;
     padding-left: 10px;
