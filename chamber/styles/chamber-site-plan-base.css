@@ -68,6 +68,7 @@ h1 {
  
 .navigation a:hover {
     font-weight: 700;
+    color: var(--accent3-color);
 }
  
 /* when the button is clicked - the open class is toggled (added/removed) */
