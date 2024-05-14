@@ -11,7 +11,7 @@
     --secondary-color: #fa7e61; 
     --accent1-color: #878e88;
     --accent2-color: #96c0b7;
-    --accent3-color: #ffe39b;
+    --accent3-color: white;
 
     --heading-font: "roboto", sans-serif;
     --paragraph-font: "source sans 3", sans-serif;
@@ -38,18 +38,18 @@ h1 {
  
 #menu::before {
     content: "☰";
-    color: var(--accent3-color);
+    color: var(--primary-color);
 }
  
 #menu.open::before {
     content: "X";
-    color: var(--accent3-color);
+    color: var(--primary-color);
 }
  
 .navigation {
     display: flex;
     flex-direction: column;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
  
 .navigation ul {
@@ -63,7 +63,7 @@ h1 {
     text-decoration: none;
     font-family: var(--heading-font);
     font-size: larger;
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
  
 .navigation a:hover {
