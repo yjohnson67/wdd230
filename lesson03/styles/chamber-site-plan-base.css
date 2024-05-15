@@ -1,29 +1,33 @@
 /*https://coolors.co/visualizer/c6ebbe-5b6c5d-3b2c35-2a1f2d-f18f01*/
-
+ 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*This sets colors and fonts for all pages with this css applie,
     to change any font or color cimply update the root and all pages will update.
-    
     How to use ex. eolor: var(--primary-color);*/
 :root {
-    
-    --primary-color: #EDAE49;   
-    --secondary-color: #5f814d; 
-    --accent1-color: #60495A;
-    --accent2-color: #f4f4f6;
-    --accent3-color: #172730; 
-
+    --primary-color: #193441;   
+    --secondary-color: #3e606f; 
+    --accent1-color: #91aa9d;
+    --accent2-color: #d1dbbd;
+    --accent3-color: #fcfff5;
+ 
     --heading-font: "roboto", sans-serif;
     --paragraph-font: "source sans 3", sans-serif;
 }
-
+ 
 *,*:before,*:after {
     box-sizing: border-box;
 }
-
+ 
+header {
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+ 
 h1 {
     font-family: var(--heading-font);
-    color: var(--secondary-color);
+    color: var(--accent1-color);
+    margin: 0;
 }
 /* Hamburger Menu */
 #menu {
@@ -35,27 +39,22 @@ h1 {
     top: 1rem;
     right: 1rem;
 }
- 
 #menu::before {
     content: "☰";
     color: var(--secondary-color);
 }
- 
 #menu.open::before {
     content: "X";
     color: var(--secondary-color);
 }
- 
 .navigation {
     display: flex;
     flex-direction: column;
-    background-color: var(--accent3-color);
+    background-color: var(--accent1-color);
 }
- 
 .navigation ul {
     list-style: none;
 }
- 
 .navigation a {
     display: none;
     padding: 1rem;
@@ -63,26 +62,24 @@ h1 {
     text-decoration: none;
     font-family: var(--heading-font);
     font-size: larger;
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
- 
 .navigation a:hover {
     font-weight: 700;
     color: var(--accent2-color);
 }
- 
 /* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
     display: block;
 }
- 
 /* wayfinding symbol for the user */
 .navigation .active {
     text-decoration: underline;
     text-decoration-color: var(--accent2-color);
     text-decoration-thickness: 1.5px;
 }
-
+ 
 .intro img {
     max-width: 30rem; 
 }
+
