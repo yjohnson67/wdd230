@@ -7,11 +7,11 @@
     How to use ex. eolor: var(--primary-color);*/
 :root {
     
-    --primary-color: #725752;  
-    --secondary-color: #fa7e61; 
-    --accent1-color: #878e88;
-    --accent2-color: #96c0b7;
-    --accent3-color: white;
+    --primary-color: #EDAE49;   
+    --secondary-color: #5f814d; 
+    --accent1-color: #60495A;
+    --accent2-color: #f4f4f6;
+    --accent3-color: #172730; 
 
     --heading-font: "roboto", sans-serif;
     --paragraph-font: "source sans 3", sans-serif;
@@ -23,7 +23,7 @@
 
 h1 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 /* Hamburger Menu */
 #menu {
@@ -38,18 +38,18 @@ h1 {
  
 #menu::before {
     content: "☰";
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
  
 #menu.open::before {
     content: "X";
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
  
 .navigation {
     display: flex;
     flex-direction: column;
-    background-color: var(--primary-color);
+    background-color: var(--accent3-color);
 }
  
 .navigation ul {
@@ -63,12 +63,12 @@ h1 {
     text-decoration: none;
     font-family: var(--heading-font);
     font-size: larger;
-    color: var(--accent3-color);
+    color: var(--accent2-color);
 }
  
 .navigation a:hover {
     font-weight: 700;
-    color: var(--accent3-color);
+    color: var(--accent2-color);
 }
  
 /* when the button is clicked - the open class is toggled (added/removed) */
@@ -79,7 +79,10 @@ h1 {
 /* wayfinding symbol for the user */
 .navigation .active {
     text-decoration: underline;
-    text-decoration-color: var(--primary-color);
+    text-decoration-color: var(--accent2-color);
     text-decoration-thickness: 1.5px;
 }
-has context menu
+
+.intro img {
+    max-width: 30rem; 
+}
