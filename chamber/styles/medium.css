@@ -1,6 +1,6 @@
 @media screen and (min-width: 500px){
 
-}
+
 
 .hero article {
     top: 1.00rem;
@@ -25,8 +25,9 @@ main p {
 .boxes img {
     margin: 2rem .5rem 0rem .5rem;
     
-}
+}S
 
 #cowboy {
     grid-column: 1/3;
+}
 }

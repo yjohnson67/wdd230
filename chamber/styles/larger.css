@@ -1,6 +1,6 @@
-@media screen and (min-width: 730){
+@media screen and (min-width: 730px){
     
-}
+
 
 .boxes {
     display: grid;
@@ -16,4 +16,5 @@
 .boxes article {
     margin-left: 2rem;
     margin-right: 2rem;
+}
 }
