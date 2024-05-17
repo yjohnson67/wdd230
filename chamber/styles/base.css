@@ -1,5 +1,3 @@
-/*https://coolors.co/visualizer/c6ebbe-5b6c5d-3b2c35-2a1f2d-f18f01*/
- 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*This sets colors and fonts for all pages with this css applie,
     to change any font or color cimply update the root and all pages will update.
@@ -10,23 +8,24 @@
     --accent1-color: #91aa9d;
     --accent2-color: #d1dbbd;
     --accent3-color: #fcfff5;
- 
     --heading-font: "roboto", sans-serif;
     --paragraph-font: "source sans 3", sans-serif;
 }
- 
 *,*:before,*:after {
     box-sizing: border-box;
+}
+body {
+    margin: 0;
 }
  
 header {
     background-color: var(--primary-color);
     padding: 1rem;
 }
- 
 h1 {
     font-family: var(--heading-font);
     text-align: center;
+    font-size: medium;
     color: var(--accent1-color);
     margin: 0;
 }
@@ -37,7 +36,7 @@ h1 {
     background: none;
     color: #000;
     position: absolute;
-    top: 2.5rem;
+    top: 1rem;
     right: 1rem;
 }
 #menu::before {
@@ -79,33 +78,80 @@ h1 {
     text-decoration-color: var(--accent2-color);
     text-decoration-thickness: 1.5px;
 }
- 
 /* Hero Image */
 .hero {
     position: relative;
 }
- 
 .hero img {
     width: 100%;
 }
- 
 .hero article {
     position: absolute;
     padding: 1rem;
-    margin: 2.5rem;
+    margin: 0.25rem;
     top: 0.25rem;
     left: 0.25rem;
     right: 0.25rem;
     background-color: rgb(255, 255, 255, 0.7);
 }
- 
 .hero button {
     font-family: var(--heading-font);
     font-size: x-small;
 } /* End Hero Img */
-
-.boxes img {
-    width: 5rem
+ 
+.button {
+    background-color: var(--accent1-color);
 }
 
+.boxes img {
+    width: 10rem
+}
+ 
+main h2, main h3 {
+    font-family: var(--heading-font);
+    font-size: smaller;
+    color: var(--secondary-color);
+}
+main p {
+    font-family: var(--paragraph-font);
+    font-size: x-small;
+    color: var(--secondary-color);
+}  
+.boxes p{
+    padding: 0 5rem 0 5rem;
+}
 
+.boxes img {
+    margin-top: 2rem;
+}
+ 
+.boxes {
+    width: 20rem;
+    margin: 1.5rem auto 1.5rem auto;
+    text-align: center;
+}
+ 
+footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+    background-color: var(--accent1-color);
+    padding: 0.5rem;
+}
+ 
+footer p {
+    text-align: left;
+    color: var(--accent3-color);
+    font-size: x-small;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+}
+
+.social-links img {
+    width: 2rem;
+    padding: 0.25rem
+}
