@@ -87,7 +87,7 @@ h1 {
 }
 .hero article {
     position: absolute;
-    padding: 1rem;
+    padding: 0.25rem;
     margin: 0.25rem;
     top: 0.25rem;
     left: 0.25rem;
@@ -139,10 +139,11 @@ footer {
     padding: 0.5rem;
 }
  
-footer p {
+footer p, footer label {
     text-align: left;
-    color: var(--accent3-color);
+    color: var(--primary-color);
     font-size: x-small;
+
 }
 
 .social-links {
