@@ -1,7 +1,5 @@
 @media screen and (min-width: 500px){
 
-
-
 .hero article {
     top: 1.00rem;
     padding: 1rem;
@@ -29,5 +27,9 @@ main p {
 
 #cowboy {
     grid-column: 1/3;
+}
+
+body p, body label {
+    font-size: revert;
 }
 }

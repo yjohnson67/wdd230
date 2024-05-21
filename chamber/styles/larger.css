@@ -1,12 +1,19 @@
 @media screen and (min-width: 730px){
-    
-
-
+    :root {
+        --primary-color: #193441;   
+        --secondary-color: #3e606f; 
+        --accent1-color: #91aa9d;
+        --accent2-color: #d1dbbd;
+        --accent3-color: #fcfff5;
+        --heading-font: "roboto", sans-serif;
+        --paragraph-font: "source sans 3", sans-serif;
+    }   
 .boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-content: center;
+    width: auto;
 }
 
 #cowboy {
@@ -16,5 +23,19 @@
 .boxes article {
     margin-left: 2rem;
     margin-right: 2rem;
+}
+.hero article {
+    margin: 5rem; 
+}
+
+.local {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+.local article {
+    margin: 2rem;
+    padding: 1rem;
+    border: 2px dotted var(--secondary-color);
 }
 }
