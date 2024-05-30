@@ -156,5 +156,23 @@ footer p {
     text-decoration-thickness: 1.5px;
 }
 
+.hero{
+    position: relative;
+} 
 
+.hero img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
 
+.label {
+    position: absolute;
+    padding: 1rem;
+    margin: 1.5rem;
+    top: 0.25rem;
+    left: 0.25rem;
+    right: 0.25rem;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+} /* End Hero Img */
