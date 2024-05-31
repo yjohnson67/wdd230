@@ -38,4 +38,27 @@
     padding: 1rem;
     border: 2px dotted var(--secondary-color);
 }
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 1rem 0 1rem;
+}
+
+.social-links {
+    margin-right: 5rem;
+}
+
+#menu {
+    display: none; /* hide hamburger button */
+}
+
+.navigation {
+    flex-direction: row;
+}
+
+.navigation a {
+    display: block;
+    flex: 1 1 100%;
+}
 }

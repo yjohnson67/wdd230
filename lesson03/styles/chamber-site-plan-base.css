@@ -19,11 +19,15 @@
     box-sizing: border-box;
 }
  
-header {
+header, footer {
     background-color: var(--primary-color);
     padding: 1rem;
 }
- 
+
+footer p {
+    color: var(--accent1-color);
+}
+
 h1 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -82,4 +86,10 @@ h1 {
 .intro img {
     max-width: 30rem; 
 }
+
+.large {
+    width: 50%;
+    height: auto;    
+}
+
 
