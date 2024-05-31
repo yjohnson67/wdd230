@@ -79,11 +79,15 @@ footer {
         width: 320px;
     }
  
-    body {
+   .reference {
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr auto;
-    }
+        grid-template-columns: 1fr 1fr; 
+        width: 35rem;
+   }
+
+   .reference h2 {
+        grid-column: 1/span 2;
+   }
  
 }
  
