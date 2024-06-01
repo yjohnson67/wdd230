@@ -147,11 +147,11 @@ footer {
     padding: 0.5rem;
 }
  
-footer p, footer label {
+footer p, footer label, #flag1 {
     text-align: left;
     color: var(--primary-color);
     font-size: x-small;
-
+    object-position: center;
 }
 
 .social-links {
@@ -173,3 +173,4 @@ footer p, footer label {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
