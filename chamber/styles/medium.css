@@ -32,4 +32,15 @@ main p {
 body p, body label {
     font-size: revert;
 }
+
+
+/* Adjustable Overlay */
+#medium {
+    visibility: visible;
+}
+ 
+#small, #large {
+    visibility: hidden;
+}
+ 
 }

@@ -61,4 +61,13 @@ footer {
     display: block;
     flex: 1 1 100%;
 }
+
+/* Adjustable Overlay */
+#large {
+    visibility: visible;
+}
+ 
+#small, #medium {
+    visibility: hidden;
+}
 }

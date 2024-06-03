@@ -22,7 +22,7 @@ body {
 header {
     background-color: var(--primary-color);
     padding: 1rem;
-    height: 4rem;
+    height: 8rem;
 }
 h1 {
     font-family: var(--heading-font);
@@ -38,8 +38,8 @@ h1 {
     background: none;
     color: #000;
     position: absolute;
-    top: 2.5rem;
-    right: 10rem;
+    top: 3.5rem;
+    right: 4rem;
 }
 #menu::before {
     content: "☰";
@@ -80,6 +80,8 @@ h1 {
     text-decoration-color: var(--accent2-color);
     text-decoration-thickness: 1.5px;
 }
+
+/*
 /* Hero Image */
 .hero {
     position: relative;
@@ -89,10 +91,12 @@ h1 {
     height: 20rem;
     object-fit: cover;
 }
+
 .local {
     text-align: center;
     padding: 0.5rem;
 }
+
 .hero article {
     position: absolute;
     padding: 0.25rem;
@@ -177,7 +181,7 @@ footer p, footer label {
 
 #mode {
 	position: absolute;
-	top: 0;
+	top: 3.5rem;
 	right: 1rem;
 	font-size: 3rem;
 	cursor: pointer;
@@ -194,3 +198,18 @@ footer p, footer label {
     font-size: smaller;
     color: var(--secondary-color);
 }
+
+
+/* Adjustable Overlay */
+#medium, #large {
+    visibility: hidden;
+}
+
+header img {
+    width: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+

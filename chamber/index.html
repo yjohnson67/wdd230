@@ -24,7 +24,7 @@
     <div id="mode">🌔</div>
 
     <header>
-        <h1>Long Johns Chamber of Commerce</h1>
+        <img src="images/Abstract Mountain Logo1.webp" alt="Logo">
     </header>
     <button id="menu"></button>
     <nav class="navigation">
@@ -35,16 +35,28 @@
     </nav>
    
     <main>
-        <div class="hero">
-            <picture><img src="images/introduction.webp" alt="wireframe"></picture>
+        
+            <div class="hero">
+                <picture>
+                    <source srcset="images/small-wdd230-org.webp" media="(max-width: 500px)">
+                    <source srcset="images/medium-wdd230-org.webp" media="(max-width: 1000px)">
+                    <img src="images/large-wdd230-org.webp" alt="WDD230-org" width="1500" height="750">
+                </picture>
+                <article>
+                    <h2 id="small">Small</h2>
+                    <h2 id="medium">Medium</h2>
+                    <h2 id="large">Large</h2>
+                </article>
+            </div>
+            <!--<picture><img src="images/introduction.webp" alt="wireframe"></picture>
             <article>
                 <p>Welcome to Long John City's Chamber of Commerce dedicted to driving economic growth and prosperity in our community.  
                     With a legacy of supporting businesses of all sizes, we offer invaluable resources, networking opportunities, and 
                     advocacy to help entrepreneurs thrive.  Explore our website to discover exclusive benefits, from networking events 
                     to advocacy iniatives.  Join us in shaping the future of our local economy and unlocking new opportunities for success.</p>
                <button class="button">Join Us</button>
-            </article>
-        </div>
+            </article>-->
+       
         <div class="local">
             <article>
                 <h3>Events</h3>
@@ -64,19 +76,25 @@
         </div>
         <div class="boxes">
             <article>
-                <img src="images/food.webp" alt="food">
+                <img srcset="images/food-small.wbp" media="(max-width: 200px)">
+                <img srcset="images/food-medium.wbp" media="(max-width: 350px)">
+                <img src="images/food-large.webp" alt="food" width="700" meight="526">
                 <p>We invite you to experience unforgetable<br>
                    cullinary journey of esquite flavors! </p>
                 <button class="button">Reservations</button>
             </article>
             <article>
-                <img src="images/backpack-.webp" alt="Hike">
+                <img srcset="images/backpack-small.wbp" media="(max-width: 200px)">
+                <img srcset="images/backpack-medium.wbp" media="(max-width: 350px)">
+                <img src="images/backpack-large.webp" alt="backpack" width="700" meight="526">
                 <p>Come join us for adventures<br> 
                    and memories that will last a lifetime!</p>
                 <button class="button">Quests</button>
             </article>
             <article id="cowboy">
-                <img src="images/cowboy-horse.webp" alt="rodeo">
+                <img srcset="images/cowboy-horse-small.wbp" media="(max-width: 200px)">
+                <img srcset="images/cowboy-horse-medium.wbp" media="(max-width: 350px)">
+                <img src="images/cowboy-horse-large.webp" alt="rodeo">
                 <p>From horse back riding lessons/adventures<br>
                    to hosting rodeos join in on the fun!
                 </p>
