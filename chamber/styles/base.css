@@ -152,6 +152,14 @@ main p {
     margin: .5rem;
 }
 
+#flag img{
+    height: 45px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
 footer {
     display: grid;
     grid-template-columns: 2fr 1fr;
