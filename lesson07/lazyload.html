@@ -6,6 +6,7 @@
     <title>Lazy Load</title>
     <meta name="description" content="WDD 230 - Web Frontend Development. Yvette Johnson's course assignment portal.">
     <meta name="author" content="Yvette Johnson">
+    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 <body>
     <header>
@@ -13,18 +14,18 @@
     </header>
 
     <main>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <picture><img loading="lazy" src="images/baby and momma.webp" alt="Momma and Baby"  width="400" height="600"></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum excepturi dignissimos iusto accusantium nulla, molestiae vero unde! Nemo non reiciendis accusantium natus. Fugiat non ad nemo voluptates mollitia consequatur quidem.</p>
+        <picture><img loading="lazy" src="images/bath.webp" alt="Bath"  width="400" height="600"></picture>
+        <picture><img loading="lazy" src="images/elephant-baby.webp" alt="Baby"width="400" height="600"></picture>
+        <picture><img loading="lazy" src="images/elephant-milk.webp" alt="Eating"width="400" height="600"></picture>
+        <picture><img loading="lazy" src="images/elephant-peace.webp" alt="Peace"width="400" height="600"></picture>  
+        <picture><img loading="lazy" src="images/female-4667509_1280.webp" alt="Girl"width="400" height="600"></picture>   
     </main>
 
     <footer>
         <p>&copy; <span id="currentYear"></span> Yvette Johnson, United States</p>
-        <img  id="flag" src="images/flag.png" alt="US Flag">
-        <p id="mod">lastModified</p>
+        <label> Last Modified: <span id="last-modification">Mon May 13 2024 20:00:54 GMT-0500 (Central Daylight Time)</span></label>
     </footer>
     <script src="scripts/last-modified.js"></script>
 
