@@ -138,11 +138,13 @@ main p {
 
 .boxes img {
     margin-top: 2rem;
+    width: 15rem;
+    height:auto;
 }
  
 .boxes {
     width: 20rem;
-    margin: 1.5rem auto 1.5rem auto;
+    margin: auto;
     text-align: center;
 }
 
