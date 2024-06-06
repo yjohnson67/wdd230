@@ -134,8 +134,6 @@ main p {
     padding: 0 5rem 0 5rem;
 }
 
-
-
 .boxes img {
     margin-top: 2rem;
     width: 15rem;
@@ -201,9 +199,6 @@ footer p, footer label {
 .weather ul {
     list-style: none;
     padding: 0;
-}
- 
-#temp, #wSpeed, #windchill {
     font-family: var(--paragraph-font);
     font-size: smaller;
     color: var(--secondary-color);
@@ -222,4 +217,3 @@ header img {
     margin-right: auto;
 }
  
-
