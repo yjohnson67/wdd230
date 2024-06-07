@@ -1,10 +1,10 @@
 @media screen and (min-width: 730px){
     :root {
-        --primary-color: #193441;   
-        --secondary-color: #3e606f; 
-        --accent1-color: #91aa9d;
-        --accent2-color: #d1dbbd;
-        --accent3-color: #fcfff5;
+        --primary-color: #736360;   
+        --secondary-color: #483f58; 
+        --accent1-color: #d9cba3;
+        --accent2-color: #f2ebdc;
+        --accent3-color: #a69992;
         --heading-font: "roboto", sans-serif;
         --paragraph-font: "source sans 3", sans-serif;
     }   

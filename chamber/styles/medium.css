@@ -1,14 +1,14 @@
 @media screen and (min-width: 500px){
 
-:root {
-    --primary-color: #352727;   
-    --secondary-color: #3e606f; 
-    --accent1-color: #91aa9d;
-    --accent2-color: #d2b48c;
-    --accent3-color: #fcfff5;
-    --heading-font: "roboto", sans-serif;
-    --paragraph-font: "source sans 3", sans-serif;
-}
+    :root {
+        --primary-color: #736360;   
+        --secondary-color: #483f58; 
+        --accent1-color: #d9cba3;
+        --accent2-color: #f2ebdc;
+        --accent3-color: #a69992;
+        --heading-font: "roboto", sans-serif;
+        --paragraph-font: "source sans 3", sans-serif;
+    } 
 
 .hero article {
     top: 1.00rem;
@@ -78,5 +78,9 @@ body p, body label {
 #dis {
     margin-left: 250px;
     padding: 0px 10px;
+}
+
+.mArea {
+    
 }
 }
