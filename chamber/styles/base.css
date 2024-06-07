@@ -22,7 +22,7 @@ body {
 header {
     background-color: var(--primary-color);
     padding: 1rem;
-    height: 8rem;
+    height: 10rem;
 }
 h1 {
     font-family: var(--heading-font);
