@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 
-<body>
+<body id="discover">
     <div id="mode">🌔</div>
 
     <header>
@@ -39,20 +39,32 @@
             <!--Single Column-->
             <!--Content: demographics, statistical data,
                 events, attractions, and/or a calendar-->
+        <div class="visits">
+            <li><span class="visits"></span></li>
+        </div>
             <div id="demo">
+                <h2>Demographics</h2>
                     <ul>
                    <li>Population of 13.5K people</li>
                    <li>Median Age of 45.6</li> 
                    <li>Median Household Income of $85,000</li>
-                    </ul>
+                </ul>
             </div>
             <div id="events">
+                <h2>Events</h2>
+                <ul>
                 <li>Rodeo</li>
                 <li>Family Health and Fitness</li>
                 <li>Farmers Market</li>
+            </ul>
             </div>
-            <div id="Local">
-
+            <div id="attractions">
+                <h2>Attractions</h2>
+                <ul>
+                <li>Bed and Breakfast</li>
+                <li>Hiking</li>
+                <li>Concerts</li>
+            </ul>
             </div>
 
            </div>
@@ -65,17 +77,50 @@
                         change the language to "day" not "days".-->
         </div>
         <div class="mArea">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <!--6 Local Photos of Interest-->
+              <!--6 Local Photos of Interest-->
             <!--Each image should be optimized in terms of file size and captioned.-->
-            <!--Images must not load until the user scrolls, use lazy loading-->
-            <!--Use a CSS property effect whenever a user hovers over the images in the gallery with their mouse.
-                This effect design is your choice. **Do not apply this effect to the images in the mobile view.-->
+            <figure>
+                <source srcset="images/market-small.webp" media="(max-width: 290px)">
+                <source srcset="images/market-medium.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/market-6329164_1280.webp" alt="Farmers Market">
+                <figcaption>Fresh produce from local farmers</figcaption>
+            </figure>
+            <figure>
+                <source srcset="images/Outdoor Concert-small.webp" media="(max-width: 290px)">
+                <source srcset="images/Outdoor Concert-medium.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/Outdoor Concert.webp" alt="Concerts">
+                <figcaption>Capturing the Energy</figcaption>
+            </figure>
+            <figure> 
+                <source srcset="images/Kayak-small.webp" media="(max-width: 290px)">
+                <source srcset="images/kayak-medium.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/Kayak.webp" alt="Kayak">
+                <figcaption>Invigoratiing Adventures</figcaption>
+            </figure>
+            <figure>
+                <source srcset="images/rodeo-small.webp" media="(max-width: 290px)">
+                <source srcset="images/rodeo-medium.webp" media="(max-width: 600px)">  
+                <img loading="lazy" src="images/rodeo.webp" alt="Rodeo">
+                <figcaption>Dust and Glory</figcaption>
+            </figure> 
+            <figure>
+                <source srcset="images/hiking-small.webp" media="(max-width: 290px)">
+                <source srcset="images/hiking.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/hiking.webp" alt="Hiking">
+                <figcaption>Nature's Playground</figcaption>
+            </figure>
+            <figure>
+                <source srcset="images/bed-food-small.webp" media="(max-width: 290px)">
+                <source srcset="images/bed-food-medium.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/bed-food.webp" alt="Bed and Breakfast">
+                <figcaption>Rustic Elegance</figcaption>
+            </figure>
+            <figure>
+                <source srcset="images/cooking-small.webp" media="(max-width: 290px)">
+                <source srcset="images/cooking-medium.webp" media="(max-width: 600px)">
+                <img loading="lazy" src="images/cooking.webp" alt="Cooking">
+                <figcaption>Kitchen Creations</figcaption>
+            </figure>
         </div>
     </main>
     <footer>
@@ -97,10 +142,11 @@
             <a href="https://www.instagram.com"><img src="images/instagram-64.webp" alt="Instagram"></a>
         </div>   
     </footer>
-    <script src="scripts/hamburger.js"></script>
+    <!--<script src="scripts/hamburger.js"></script>-->
     <script src="scripts/last-modified.js"></script>
     <script src="scripts/mode.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/last-visited.js"></script>
+    <script src="scripts/date-message.js"></script>
 </body> 
 </html>

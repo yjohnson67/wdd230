@@ -55,7 +55,7 @@ body p, body label {
  
 .sidebar {
     height: 100%;
-    width: 250px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -66,11 +66,12 @@ body p, body label {
     color: var(--secondary-color);
     font-family: var(--primary-color);
     padding: 3rem;
-    padding-left: 1rem;
+    padding-left: 3rem;
+    text-align: center;
 
 }
 
-#demo, #events, #local ul {
+#demo ul, #events ul, #local ul {
     list-style-type: none;
     padding: 0;
 }
@@ -80,7 +81,7 @@ body p, body label {
     padding: 0px 10px;
 }
 
-.mArea {
-    
+#discover {
+    margin-left: 300px;
 }
 }
