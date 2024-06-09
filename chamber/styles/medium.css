@@ -62,12 +62,14 @@ body p, body label {
     left: 0;
     background-color: var(--accent2-color);
     overflow-x: hidden;
-    padding-top: 20px;
     color: var(--secondary-color);
     font-family: var(--primary-color);
-    padding: 3rem;
-    padding-left: 3rem;
+    padding: 1rem;
     text-align: center;
+}
+
+#demo:hover, #events:hover, #attractions:hover, .visits:hover {
+    background-color: var(--accent1-color);
 }
 
 /*#demo ul, #events ul, #local ul {
