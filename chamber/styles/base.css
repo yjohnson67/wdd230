@@ -235,16 +235,26 @@ header img {
 }
 
 /*make a list of all the divs I am working with*/
-#events, #demo, #attractions { 
+/*#events, #demo, #attractions, .visits { 
    margin-top: 2.5rem;
    margin-bottom: 3rem;
    border-bottom: 0.5rem solid var(--primary-color);
    text-align: center;
+
+}*/
+
+#events:hover, #demo:hover, #attractions:hover, .visits:hover {
+    border: 0.25rem solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--accent1-color);
+    margin: 1rem;
+    padding: 1rem;
 }
 /*adjusting the lists and the text within*/
-#events ul, #demo ul, #attractions ul { 
+#events ul, #demo ul, #attractions ul, .visits ul { 
     list-style-type: none;
-    padding: 0;
+    padding: 1rem;
+    margin: 2rem 0.25rem;
     color: var(--secondary-color); 
     font-family: var(--paragraph-font);
 }
@@ -271,5 +281,9 @@ figcaption {
     color: var(--secondary-color);
     font-size: smaller;
     font-style: italic;
+}
+
+.mArea img:hover {
+    box-shadow: 0 0 50px var(--secondary-color);
 }
 

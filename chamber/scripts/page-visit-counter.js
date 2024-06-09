@@ -1,27 +1,26 @@
 // Initialize display element variable
 const visitsDisplay = document.querySelector(".visits");
  
-//Todays Date
-const tDate = new Date().toDateString();
-//Get Dates from Storage (if none, return 0)
-let pDate = Number(window.localStorage.getItem("pDate")) || 0;
-//Get Number of Visits from Storage (if none, return 0)
-let numVisits = Number(window.localStorage.getItem("numVisits-ls"));
+// Check if localStorage is supported
+if (typeof(Storage) !== "undefined") {
+    // Get the last visit date from localStorage
+    var lastVisit = localStorage.getItem("lastVisit");
+}
  
-//Does todays date and the date in local storage match?
-const matchResults = tDate.matchAll(pDate);
+//Declare Variables
+const currentDate = new Date();
+const lastVisitDate = new Date(lastVisit);
+const timeDiff = currentDate - lastVisitDate;
+const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
  
-//Determine what message to display
-if (matchResults && (numVisits !== 1)) {
-    visitsDisplay.textContent = "Back so soon! Awesome!"
-} else if (numVisits = 1) {
+// Message based on the time difference
+if (!lastVisit) {
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
+} else if (daysDiff <= 1) {
+    visitsDisplay.textContent = "Back so soon! Awesome!"
 } else {
     visitsDisplay.textContent = "Number of Visits: "+ numVisits;
 }
  
-// Store the new date into localStorage, key=pDate
-localStorage.setItem("pDate", tDate);
-// Store the new visit total into localStorage, key=numVisits-ls
-numVisits++;
-localStorage.setItem("numVisits-ls", numVisits);
+// Store the new date into localStorage, key=lastVisit
+localStorage.setItem("lastVisit", currentDate);
