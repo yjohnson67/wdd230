@@ -139,7 +139,6 @@ h1 {
  
 main h2, main h3 {
     font-family: var(--heading-font);
-    font-size: smaller;
     color: var(--secondary-color);
 }
 
@@ -234,33 +233,23 @@ header img {
     margin-right: auto;
 }
 
-/*make a list of all the divs I am working with*/
-/*#events, #demo, #attractions, .visits { 
-   margin-top: 2.5rem;
-   margin-bottom: 3rem;
-   border-bottom: 0.5rem solid var(--primary-color);
-   text-align: center;
-
-}*/
-
-#events:hover, #demo:hover, #attractions:hover, .visits:hover {
-    border: 0.25rem solid var(--secondary-color);
+#demo, #events, #attractions, .visits {
+    width: 15rem;
+    border: 0.25rem solid var(--accent1-color);
     border-radius: 1rem;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.75rem;
 }
-/*adjusting the lists and the text within*/
-#events ul, #demo ul, #attractions ul, .visits ul { 
+#demo ul, #events ul, #attractions ul, .visits ul {
     list-style-type: none;
-    padding: 1rem;
-    margin: 2rem 0.25rem;
-    color: var(--secondary-color); 
+    padding: 0;
+    color: var(--secondary-color);
     font-family: var(--paragraph-font);
+    margin: 0;
 }
-
-h2 {
-    font-family: var(--heading-font);
+#demo h2, #events h2, #attractions h2, .visits h2 {
+    margin: 0.25rem 0;
 }
 
 .mArea figure img {

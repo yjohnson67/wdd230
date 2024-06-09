@@ -68,18 +68,12 @@ body p, body label {
     padding: 3rem;
     padding-left: 3rem;
     text-align: center;
-
 }
 
-#demo ul, #events ul, #local ul {
+/*#demo ul, #events ul, #local ul {
     list-style-type: none;
     padding: 0;
-}
-
-#dis {
-    margin-left: 250px;
-    padding: 0px 10px;
-}
+}*/
 
 #discover {
     margin-left: 300px;
