@@ -1,0 +1,73 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+This sets colors and fonts for all pages with this css applie,
+    to change any font or color cimply update the root and all pages will update.
+    How to use ex. eolor: var(--primary-color);*/
+    :root {
+        --primary-color: #474f38;   
+        --secondary-color: #878f78; 
+        --accent1-color: #98a697;
+        --accent2-color: #d2d9ba;
+        --accent3-color: #e6e4d1;
+        --heading-font: "roboto", sans-serif;
+        --paragraph-font: "source sans 3", sans-serif;
+} 
+
+.f1 fieldset {
+    margin: 2rem auto;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+ 
+.f1 legend {
+    color: var(--primary-color);
+    padding: 0.5rem;
+    font-family: var(--heading-font);
+    font-size: larger;
+}
+ 
+.f1 label{
+    display: block;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-size: .9rem;
+    font-family: var(--paragraph-font);
+}
+ 
+.f1 input[type="text"],
+.f1 input[type="password"],
+.f1 input[type="email"] {
+    background-color: var(--accent3-color);
+    display: block;
+    border: solid 1px var(--primary-color);
+    border-radius: 6px;
+    padding: .75rem;
+    color: var(--primary-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+    margin:0 auto;
+}
+ 
+.f1 input[type="range"] {
+    margin-bottom: 2rem;
+}
+ 
+.f1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--accent2-color), var(--accent1-color));
+    color: var(--primary-color);
+    border-radius: 6px;
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+ 
+.f1 input:required {
+    border-left: solid 8px red;
+}
+.f1 input:required:valid {
+    border-left: solid 8px green;
+}
