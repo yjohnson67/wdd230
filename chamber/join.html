@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Join</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development. Yvette Johnson's course assignment portal.">
+    <meta name="author" content="Yvette Johnson">
+    <!--Open Graph Meta TAgs-->
+    <meta property="og:title" content="WDD230 Long John Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://cdn.pixabay.com/photo/2020/11/02/19/22/mountains-5707656_1280.jpg">
+    <meta property="og:url" content="https://yjohnson67.github.io/wdd230/chamber/">
+    <!--Stylesheets-->
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="../styles/normalize.css"> <!--searching through folders for file-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <div id="mode">🌔</div>
+
+    <header>
+        <img src="images/logo.webp" alt="Logo">
+    </header>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#">Advocacy</a>
+        <a href="#">Resources</a>
+        <a href="#">Events</a>
+    </nav>
+   
+    <main class="jpage">
+        <!--Memberhship--Frist Column-->
+        <div id="membership"></div>
+            <h2>Membership Level Descriptions</h2>
+            <div>
+                <h3>Non-Profit Membership</h3>
+                <p>Cost: Free</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>Access to special events for non-profit organization</li>
+                    <li>Limited training sessions</li>
+                    <li>Basic advertising options</li>
+                    <li>Event discouts (up to 10%)</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Bronze Membership</h3>
+                <p>Cost: $50/year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All Non-Profit benefits</li>
+                    <li>Additional training sessions</li>
+                    <li>Enhanced advertising options (including spotlight positions on secondary pages)</li>
+                    <li>Event discouts (up to 15%)</li>
+                    <li>Access to member-only webinars</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Silver Membership</h3>
+                <p>Cost: $100/year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Priority listing in directory</li>
+                    <li>Exclusive spotlight positions on the home page</li>
+                    <li>Higher event discounts (up to 20%)</li>
+                    <li>Invitations to exclusive networking events</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Gold Membership</h3> 
+                <p>Cost: $200/year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Premium advertising options (including top banner positions)</li>
+                    <li>Maximum event discounts (up to 25%)</li>
+                    <li>Free access to premium training and workshops</li>
+                    <li>VIP access to all events</li>
+                </ul>
+            </div>
+        </div>
+        <!--Form Second Comumn-->
+        <div id="register">
+            <form method="get" action="thank.html" class="f1">
+            <!--Make a Thank You page-->
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                        <label>First Name<input type="text" name="fname" required></label>
+                        <label>Last Name<input type="text" name="lname" required></label>
+                        <label>Email<input type="text" name="email" placeholder="helloworld@email.com" required></label>
+                        <label>Phone<input type="tel" name="tel" required></label>
+                            </fieldset>
+                <fieldset>
+                    <legend>Business (Organization)</legend>  
+                        <label>Business Name<input type="text" name="bname" required></label>
+                        <label>Title (Position)<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>
+                        <label>Business Description<input type="text" name="bdes" required></label>
+                </fieldset>
+                <Fieldset>
+                    <legend>Membership Selection</legend>
+                        <label><input type="radio" name="mlevel" value="NPMembership">Non Profit</label>
+                        <label><input type="radio" name="mlevel" value="Bronze">Bronze</label>
+                        <label><input type="radio" name="mlevel" value="Silver">Silver</label>
+                        <label><input type="radio" name="mlevel" value="Gold">Gold</label>
+                </fieldset>
+                <input type="hidden" name="data" id="date">
+                <input type="submit" value="Apply for membership">
+            </form>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Long John Chamber of Commerce</p>
+            <p>8300 Long Roadhouse <br> Long John, Texas 77890</p>
+            <p>longjohncity@city.org</p>
+            <p>☎️ 1-800-123-4567</p>
+        </div>
+        <div id="flag">
+        <p>Long John Chamber of Commerce | ©2024 <br>Yvette Johnson | WDD 230 Project </p>
+        <label>last modified: <span id="last-modified"></span></label><br>
+        <img src="images/flag.webp" alt="flag">
+        </div>
+        <!--social media links-->
+        <div class="social-links">
+            <a href="https://www.facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://www.tiktok.com"><img src="images/tik-tok-01-64.webp" alt="Tiktok"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram-64.webp" alt="Instagram"></a>
+        </div>   
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/last-modified.js"></script>
+    <script src="scripts/mode.js"></script>
+    <script src="scripts/add-date-form.js"></script>
+</body> 
+</html>
