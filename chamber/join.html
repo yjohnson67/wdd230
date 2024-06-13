@@ -14,7 +14,7 @@
     <meta property="og:url" content="https://yjohnson67.github.io/wdd230/chamber/">
     <!--Stylesheets-->
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="../styles/normalize.css"> <!--searching through folders for file-->
+    <!--<link rel="stylesheet" href="../styles/normalize.css"> <!--searching through folders for file-->
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -85,17 +85,46 @@
                     <li>VIP access to all events</li>
                 </ul>
             </div>
-        </div>
+            <div>
+                <h3>Platinum Membership</h3> 
+                <p>Cost: $500/year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All Gold benefits</li>
+                    <li>Elite advertising options (including homepage banner and newsletter features)</li>
+                    <li>Highest event discounts (up to 30%)</li>
+                    <li>Personal business consultation services</li>
+                    <li>Free entry to all chamber events</li>
+                    <li>Exclusive inviatation to high-profile networking events</li>
+                    <li>Recognition as a Platinum member on all chamber materials</li>
+                    <li>Priority support and services</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Diamond Membership</h3> 
+                <p>Cost: $1000/year</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>All Platnium benefits</li>
+                    <li>Exclusive access to high-profile events with industry leaders</li>
+                    <li>Personal business growth strategy sessions</li>
+                    <li>Priority placement in chamber publications and marketing materials</li>
+                    <li>Complimentary tickets to all chamber events</li>
+                    <li>VIP concierge service to all chamber-related inquiries</li>
+                    <li>Invitation to join the Chamber's advisory board</li>
+                </ul>
+            </div>
         <!--Form Second Comumn-->
         <div id="register">
             <form method="get" action="thank.html" class="f1">
             <!--Make a Thank You page-->
                 <fieldset>
                     <legend>Applicant Information</legend>
-                        <label>First Name<input type="text" name="fname" required></label>
-                        <label>Last Name<input type="text" name="lname" required></label>
-                        <label>Email<input type="text" name="email" placeholder="helloworld@email.com" required></label>
-                        <label>Phone<input type="tel" name="tel" required></label>
+                        <label>First Name <input type="text" name="fname" required></label>
+                        <label>Last Name <input type="text" name="lname" required></label>
+                        <label>Email <input type="text" name="email" placeholder="helloworld@email.com" required></label>
+                        <label>Phone <input type="tel" name="tel" required></label>
+                        <label>Refered by <input type="rby" name="rby"></label>
                             </fieldset>
                 <fieldset>
                     <legend>Business (Organization)</legend>  
@@ -105,10 +134,12 @@
                 </fieldset>
                 <Fieldset>
                     <legend>Membership Selection</legend>
-                        <label><input type="radio" name="mlevel" value="NPMembership">Non Profit</label>
-                        <label><input type="radio" name="mlevel" value="Bronze">Bronze</label>
-                        <label><input type="radio" name="mlevel" value="Silver">Silver</label>
-                        <label><input type="radio" name="mlevel" value="Gold">Gold</label>
+                        <label><input type="radio" name="mlevel" value="NPMembership">Non Profit  </label>
+                        <label><input type="radio" name="mlevel" value="Bronze">Bronze  </label>
+                        <label><input type="radio" name="mlevel" value="Silver">Silver  </label>
+                        <label><input type="radio" name="mlevel" value="Gold">Gold  </label>
+                        <label><input type="radio" name="mlevel" value="Platinum">Platinum</label>
+                        <label><input type="radio" name="mlevel" value="Diamond">Diamond</label>
                 </fieldset>
                 <input type="hidden" name="data" id="date">
                 <input type="submit" value="Apply for membership">

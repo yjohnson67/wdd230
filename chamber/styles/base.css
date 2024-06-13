@@ -276,3 +276,58 @@ figcaption {
     box-shadow: 0 0 50px var(--secondary-color);
 }
 
+/* Join Page CSS*/
+h2 {
+    margin-left: 1rem;
+}
+
+#membership div{
+    border: 0.25rem solid var(--secondary-color);
+    border-radius: 1rem;
+    padding: 1 rem;
+    margin: 1rem 
+}
+
+#membership div h3, #membership div p {
+    margin: 0.25rem;
+}
+
+#register fieldset {
+    margin: 1rem;
+    border: 2px dashed var(--secondary-color);
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+#register legend {    
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    font-family: var(--heading-font);
+}
+
+#register label{
+    display: block;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-size: .9rem;
+    font-family: var(--paragraph-font);
+}
+
+#register input[type="text"],
+#register input[type="email"],
+#register input[type="tel"]{
+    background-color: var(--accent1-color);
+    display: block;
+    border-radius: 6px;
+    padding: .5rem;
+    color: var(--accent3-color);
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+
+
+#register input[type="test"]{
+
+}
