@@ -1,8 +1,9 @@
+{
 "wardInformation": {
     "familyName": "",
     "moveInDate": "",
-    "numberOfPeople": ,
-    "visitedByBishoipric": ,
+    "numberOfPeople": 0,
+    "visitedByBishoipric": false,
     "familyMembers": [
         {
             "name": "",
@@ -22,24 +23,24 @@
           {
             "name": "",
             "gender": "",
-            "birthdate": 
+            "birthdate": ""
           },
           {
             "name": "",
             "gender": "",
-            "birthdate": 
+            "birthdate": ""
           },
           {
             "name": "",
             "gender": "",
-            "birthdate": 
+            "birthdate": ""
           },
           {
             "name": "",
             "gender": "",
-            "birthdate": 
+            "birthdate": ""
           }
         ]
     }
-      
+}      
     
