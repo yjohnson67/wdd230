@@ -30,13 +30,13 @@ header img {
     width: 30rem;
 }
 
-h1 {
+/*h1 {
     font-family: var(--heading-font);
     text-align: center;
     font-size: medium;
     color: var(--accent1-color);
     margin: 0;
-}
+}*/
 
 /* Hamburger Menu */
 #menu {
