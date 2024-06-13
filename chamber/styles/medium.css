@@ -79,5 +79,11 @@ body p, body label {
 
 #discover {
     margin-left: 300px;
+    background-color: var(--accent1-color);
+}
+
+.jpage {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 }

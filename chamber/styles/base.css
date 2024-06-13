@@ -279,6 +279,8 @@ figcaption {
 /* Join Page CSS*/
 h2 {
     margin-left: 1rem;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
 }
 
 #membership div{
@@ -313,9 +315,18 @@ h2 {
     font-family: var(--paragraph-font);
 }
 
+textarea {
+    width:100%;
+    margin:5px 0;
+    padding:3px;
+    background-color: var(--accent1-color);
+
+}
+
 #register input[type="text"],
 #register input[type="email"],
-#register input[type="tel"]{
+#register input[type="tel"],
+#register input[type="rby"]{
     background-color: var(--accent1-color);
     display: block;
     border-radius: 6px;
@@ -326,8 +337,28 @@ h2 {
     appearance: none;
 }
 
+#radio:hover{
+    border: 2px solid var(--secondary-color);
+    border-radius: 1rem;
+    background-color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-size: large;
+    width: 10rem;
+}
 
+#register input[type=submit] {
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    border-radius: 6px;
+    padding: 0.8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: 1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
 
-#register input[type="test"]{
+#register input[type="radio"] {
 
 }

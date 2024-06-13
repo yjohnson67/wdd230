@@ -28,16 +28,16 @@
     </header>
     <button id="menu"></button>
     <nav class="navigation">
-        <a href="#" class="active">Home</a>
-        <a href="#">Advocacy</a>
-        <a href="#">Resources</a>
+        <a href="https://yjohnson67.github.io/wdd230/chamber/index.html';" class="active">Home</a>
+        <a href="https://yjohnson67.github.io/wdd230/chamber/discover.html';">Discover</a>
+        <a href="https://yjohnson67.github.io/wdd230/chamber/join.html';">Join</a>
         <a href="#">Events</a>
     </nav>
-   
+    <h2>Membership Level Descriptions</h2>
     <main class="jpage">
         <!--Memberhship--Frist Column-->
-        <div id="membership"></div>
-            <h2>Membership Level Descriptions</h2>
+        <div id="membership">
+            
             <div>
                 <h3>Non-Profit Membership</h3>
                 <p>Cost: Free</p>
@@ -114,32 +114,35 @@
                     <li>Invitation to join the Chamber's advisory board</li>
                 </ul>
             </div>
+        </div>    
         <!--Form Second Comumn-->
         <div id="register">
             <form method="get" action="thank.html" class="f1">
             <!--Make a Thank You page-->
+            <fieldset>
+                <legend>Membership Selection</legend>
+                    <label id="radio"><input type="radio" name="mlevel" value="NPMembership">Non Profit </label>
+                    <label id="radio"><input type="radio" name="mlevel" value="Bronze">Bronze  </label>
+                    <label id="radio"><input type="radio" name="mlevel" value="Silver">Silver  </label>
+                    <label id="radio"><input type="radio" name="mlevel" value="Gold">Gold  </label>
+                    <label id="radio"><input type="radio" name="mlevel" value="Platinum">Platinum</label>
+                    <label id="radio"><input type="radio" name="mlevel" value="Diamond">Diamond</label>
+            </fieldset>
                 <fieldset>
                     <legend>Applicant Information</legend>
                         <label>First Name <input type="text" name="fname" required></label>
                         <label>Last Name <input type="text" name="lname" required></label>
                         <label>Email <input type="text" name="email" placeholder="helloworld@email.com" required></label>
                         <label>Phone <input type="tel" name="tel" required></label>
-                        <label>Refered by <input type="rby" name="rby"></label>
-                            </fieldset>
+                        <label>Referred by <input type="rby" name="rby" ></label>
+                </fieldset>
                 <fieldset>
                     <legend>Business (Organization)</legend>  
                         <label>Business Name<input type="text" name="bname" required></label>
                         <label>Title (Position)<input type="text" name="title" pattern="[a-zA-Z_-]{7}" required></label>
-                        <label>Business Description<input type="text" name="bdes" required></label>
-                </fieldset>
-                <Fieldset>
-                    <legend>Membership Selection</legend>
-                        <label><input type="radio" name="mlevel" value="NPMembership">Non Profit  </label>
-                        <label><input type="radio" name="mlevel" value="Bronze">Bronze  </label>
-                        <label><input type="radio" name="mlevel" value="Silver">Silver  </label>
-                        <label><input type="radio" name="mlevel" value="Gold">Gold  </label>
-                        <label><input type="radio" name="mlevel" value="Platinum">Platinum</label>
-                        <label><input type="radio" name="mlevel" value="Diamond">Diamond</label>
+                        <label>Business Description
+                            <textarea rows="5" cols="40" name="bdes" required></textarea>
+                        </label>
                 </fieldset>
                 <input type="hidden" name="data" id="date">
                 <input type="submit" value="Apply for membership">
