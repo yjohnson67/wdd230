@@ -9,9 +9,17 @@ if (typeof(Storage) !== "undefined") {
  
 //Declare Variables
 const currentDate = new Date();
-const lastVisitDate = new Date(lastVisit);
+let daysDiff = 0;
+/*const lastVisitDate = new Date(lastVisit);
 const timeDiff = currentDate - lastVisitDate;
-const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));*/
+
+if(lastVisit) {
+    const lastVisitDate = Date(lastVisit);
+    const timeDiff = currentDate - lastVisitDate;
+    /*daysDiff = Math.floor(timeDiff/ (1000 * 60 * 60 * 24));*/
+
+}
  
 // Message based on the time difference
 if (!lastVisit) {

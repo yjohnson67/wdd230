@@ -54,27 +54,27 @@ body p, body label {
 }
  
 .sidebar {
-    height: 100%;
-    width: 300px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 300px; /* Set the width of the sidebar */
+    position: fixed;  /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
     left: 0;
     background-color: var(--accent2-color);
     overflow-x: hidden;
-    color: var(--secondary-color);
-    font-family: var(--paragraph-font);
-    padding: 1rem;
-    text-align: center;
+    padding-top: 10px;
 }
 
 #demo:hover, #events:hover, #attractions:hover, .visits:hover {
     background-color: var(--accent1-color);
 }
 
-/*#demo ul, #events ul, #local ul {
+/*#demo ul, #events ul, #local ul, visits ul {
     list-style-type: none;
     padding: 0;
+    color: var(--secondary-color);
+    font-family: var(--paragraph-font);
+    margin: 0;
 }*/
 
 #discover {
