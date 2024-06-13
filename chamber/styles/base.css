@@ -287,7 +287,7 @@ h2 {
     border: 0.25rem solid var(--secondary-color);
     border-radius: 1rem;
     padding: 1 rem;
-    margin: 1rem 
+    margin: 1rem; 
 }
 
 #membership div h3, #membership div p {
@@ -337,7 +337,7 @@ textarea {
     appearance: none;
 }
 
-#radio:hover{
+.radio:hover{
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
     background-color: var(--accent1-color);
