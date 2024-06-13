@@ -1,0 +1,45 @@
+"wardInformation": {
+    "familyName": "",
+    "moveInDate": "",
+    "numberOfPeople": ,
+    "visitedByBishoipric": ,
+    "familyMembers": [
+        {
+            "name": "",
+            "gender": "",
+            "birthdate": ""
+        },
+        {
+            "name": "",
+            "gender": "",
+            "birthdate": ""
+          },
+          {
+            "name": "",
+            "gender": "",
+            "birthdate": ""
+          },
+          {
+            "name": "",
+            "gender": "",
+            "birthdate": 
+          },
+          {
+            "name": "",
+            "gender": "",
+            "birthdate": 
+          },
+          {
+            "name": "",
+            "gender": "",
+            "birthdate": 
+          },
+          {
+            "name": "",
+            "gender": "",
+            "birthdate": 
+          }
+        ]
+    }
+      
+    
