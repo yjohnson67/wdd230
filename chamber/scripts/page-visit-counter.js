@@ -16,6 +16,9 @@ const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 // Message based on the time difference
 if (!lastVisit) {
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
+    if(!isNaN(lastVisitDate)){
+        const timeDiff = currentDate - lastVisitDate;
+    }
 } else if (daysDiff <= 1) {
     visitsDisplay.textContent = "Back so soon! Awesome!"
 } else {
