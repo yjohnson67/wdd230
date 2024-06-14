@@ -13,4 +13,6 @@ async function getProphetData(){
     console.table(data.prophets);
 }
 
+
 getProphetData();
+
