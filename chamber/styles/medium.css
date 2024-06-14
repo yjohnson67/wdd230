@@ -65,7 +65,7 @@ body p, body label {
     padding-top: 10px;
 }
 
-#demo:hover, #events:hover, #attractions:hover, .visits:hover {
+#demo:hover, #events:hover, #attractions:hover, #visits:hover {
     background-color: var(--accent1-color);
 }
 
