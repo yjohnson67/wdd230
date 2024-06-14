@@ -13,13 +13,6 @@ const lastVisitDate = new Date(lastVisit);
 const timeDiff = currentDate - lastVisitDate;
 const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
-if(lastVisit) {
-    const lastVisitDate = Date(lastVisit);
-    const timeDiff = currentDate - lastVisitDate;
-    daysDiff = Math.floor(timeDiff/ (1000 * 60 * 60 * 24));
-    numVisits = Number(localStorage.getItem("numVisits")) +1 || 1;
-}
- 
 // Message based on the time difference
 if (!lastVisit) {
     visitsDisplay.textContent = "Welcome! Let us know if you have any questions.";
@@ -31,4 +24,3 @@ if (!lastVisit) {
  
 // Store the new date into localStorage, key=lastVisit
 localStorage.setItem("lastVisit", currentDate);
-localStorage.setItem("numVisits", numVisits);
