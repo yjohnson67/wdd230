@@ -9,8 +9,9 @@ if (typeof(Storage) !== "undefined") {
  
 //Declare Variables
 const currentDate = new Date();
-let daysDiff = 0;
-let numVisits = 0;
+const lastVisitDate = new Date(lastVisit);
+const timeDiff = currentDate - lastVisitDate;
+const daysDiff = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
 
 if(lastVisit) {
     const lastVisitDate = Date(lastVisit);
