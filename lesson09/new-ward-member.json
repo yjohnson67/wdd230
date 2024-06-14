@@ -1,0 +1,45 @@
+{
+    "wardInformation": {
+        "familyName": "Johnson",
+        "moveInDate": "2019-13-03",
+        "numberOfPeople": 3,
+        "visitedByBishoipric": true,
+        "familyMembers": [
+            {
+                "name": "Phillip Gregg Johnson",
+                "gender": "Male",
+                "birthdate": "1961-10-03"
+            },
+            {
+                "name": "Yvette Johnson",
+                "gender": "Female",
+                "birthdate": "1967-02-05"
+              },
+              {
+                "name": "Bryndon Alexander Johnson",
+                "gender": "Male",
+                "birthdate": "1993-03-29"
+              },
+              {
+                "name": "",
+                "gender": "",
+                "birthdate": ""
+              },
+              {
+                "name": "",
+                "gender": "",
+                "birthdate": ""
+              },
+              {
+                "name": "",
+                "gender": "",
+                "birthdate": ""
+              },
+              {
+                "name": "",
+                "gender": "",
+                "birthdate": ""
+              }
+            ]
+        }
+      }         
