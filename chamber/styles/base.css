@@ -319,6 +319,7 @@ textarea {
     margin:5px 0;
     padding:3px;
     background-color: var(--accent1-color);
+    border-radius: 6px;
 
 }
 
