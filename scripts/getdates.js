@@ -12,7 +12,7 @@ document.getElementById('currentYear').textContent = `${currentWeekday}, ${curre
 document.getElementById('mod').textContent = `Last Modified: ${currentDate}`;
 
 
-$(document).ready(function() {
+(document).ready(function() {
 var getIP = 'http://ip-api.com/json/',
 		openWeatherMap = 'http://api.openweathermap.org/data/2.5/weather',
 		APPID = 'APPID';
