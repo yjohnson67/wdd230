@@ -1,4 +1,4 @@
-/*@media screen and (min-width: 500px){*/
+@media screen and (min-width: 500px){
 
     :root {
         --primary-color: #736360;   
@@ -69,13 +69,6 @@ body p, body label {
     background-color: var(--accent1-color);
 }
 
-/*#demo ul, #events ul, #local ul, visits ul {
-    list-style-type: none;
-    padding: 0;
-    color: var(--secondary-color);
-    font-family: var(--paragraph-font);
-    margin: 0;
-}*/
 
 #discover {
     margin-left: 300px;
@@ -85,4 +78,6 @@ body p, body label {
 .jpage {
     display:grid;
     grid-template-columns: 1fr 1fr;
+}
+
 }
