@@ -1,0 +1,120 @@
+{
+    "lessons": [
+        {
+        "lessons": "01",
+        "links": [
+            {
+                "url":"lesson01/holygrail.html",
+                "title":"Holy Grail Layout"
+            }
+        ]
+        },
+        {
+         "lessons": "02",
+        "links": [
+            {
+                "url":"lesson02/design.html",
+                "title":"Design"
+            },
+            {
+                "url":"lesson02/media-query.html",
+                "title":"Media Query Example"
+            },
+            {
+                "url":"lesson02/design-principles.html",
+                "title":"Design Principles"
+            }
+        ]  
+        },
+        {"lessons": "03",
+        "links": [
+            {
+                "url":"lesson03/images/css-combinators.png",
+                "title":"Chamber"
+            },
+            {
+                "url":"https://codepen.io/Vette67/pen/VwOPzWb",
+                "title":"Pseudo-Elements"
+            },
+            {
+                "url":"https://codepen.io/Vette67/pen/BaepdwP",
+                "title":"Responsive Navigation"
+            }        
+        ]
+    } ,
+        {"lessons": "04",
+            "links": [
+            {
+                "url":"https://codepen.io/Vette67/pen/GRareer",
+                "title":"CSS Pseudo Classes"
+            }
+        ]
+        },
+        {"lessons": "05",
+            "links": [
+            {
+                "url":"lesson05/bom.html",
+                "title":"Book of Mormon Favorite Chapters Application"
+            }
+        ]
+        },
+        {"lessons": "06",
+        "links": [
+            {
+                "url":"lesson03/images/landscape2.webp",
+                "title":"WebP"
+            },
+            {
+                "url":"lesson06/responsive-images.html",
+                "title":"Responsive Images"
+            }
+        ]
+    } ,
+    {"lessons": "07",
+        "links": [
+            {
+                "url":"lesson07/lazyload.html",
+                "title":"Lazy Load"
+            },
+            {
+                "url":"lesson07/bom.html",
+                "title":"Local Storage"
+            },
+            {
+                "url":"chamber/discover.html",
+                "title":"Discover"
+            }        
+        ]
+    } ,
+    {"lessons": "08",
+        "links": [
+            {
+                "url":"lesson08/tablebuild.html",
+                "title":"Table Build"
+            },
+            {
+                "url":"form-start/index.html",
+                "title":"Form Start"
+            },
+            {
+                "url":"form.html",
+                "title":"Form Build"
+            }        
+        ]
+    } ,
+    {"lessons": "09",
+        "links": [
+            {
+                "url":"lesson09/new-ward-member.json",
+                "title":"New Ward Family"
+            },
+            {
+                "url":"lesson09/prophets.html",
+                "title":"Prophets"
+            }
+             
+        ]
+    } 
+]
+}
+
