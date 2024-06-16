@@ -1,7 +1,7 @@
 //Declare Variables
 // your root wdd230 repository, GitHub pages URL.
 const baseURL = "https://yjohnson67.github.io/wdd230/";
-const linksURL = "http://yjohnson67.github.io/wdd230/data/links.json";
+const linksURL = "https://yjohnson67.github.io/wdd230/data/links.json";
 // const linksURL = "data/links.json";
 
 
@@ -31,4 +31,19 @@ async function getLinks() {
 }
 
 getLinks();
+
+// 7. Create the displayLinks() function and name the function's single parameter weeks. Remember from the 
+// json data that you wrote and tested that the data is an array of objects representing weeks of the term.
+const ul = document.querySelector(".left-card");
+
+const displayLinks = (weeks) => {
+    weeks.forEach((weeks) => {
+        
+        const li = document.createElement("li");
+        li.innerHTML = `${weeks.week}: ${weeks.links.map(link => `<a href="${link.url}">${link.title}</a>`).join(" | ")}`;
+        
+        ul.appendChild(li);
+    });
+}
+
 
