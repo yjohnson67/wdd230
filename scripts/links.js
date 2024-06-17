@@ -20,13 +20,9 @@ function displayLinks(data) {
         data.links.forEach(link => {
             //Build Element
             let a = document.createElement("a");
-            //Define an index variable
-            /*let n = 0;*/
             //Set attributes for a element
             a.setAttribute("href", link.url);
             a.textContent = `${link.title}| `;
-            //Create loop
-            /*n++;*/
             li.appendChild(a);    
             });
    
