@@ -1,0 +1,94 @@
+{
+    "members": [
+        {
+            "name": "Jacksonville Symphony Society",
+            "address": "P.O. Box 32 Jacksonville IL 62651",
+            "phone": "217.602.9555",
+            "url": "https://www.jacksonvilleareachamber.org/list/member/jacksonville-symphony-society-374",
+            "logo": "https://chambermaster.blob.core.windows.net/userfiles/UserFiles/chambers/3277/CMS/Jacksonville-Chamber-Color(1)-w6000.jpg",
+            "mLevel": "Gold",
+            "cPerson": "Jax Johnson",
+            "email": "jaxsym@jaxsym.com"
+        },
+        {
+            "name": "Open House Print Shop",
+            "address": "235 E. Douglas Ave. Jacksonville IL 62650",
+            "phone": "(217) 243-9100",
+            "url": "https://openhouseprintshop.com/",
+            "logo": "https://images.squarespace-cdn.com/content/v1/5f443bdcd695e53a82782999/1600434208945-QGEBTSK8BRD2GXZV9FX7/open-house-logo-2020+%283%29.png?format=1500w/",
+            "mLevel": "Platnium",
+            "cPerson": "Elizabeth Chlarson",
+            "email": "openhouseprintshop@gmail.com"
+        },
+        {
+            "name": "Royal Printing",
+            "address": "2615 Ellington Road Quincy IL 62305",
+            "phone": "(217) 222-0617",
+            "url": "https://royal-printing.com/",
+            "logo": "https://royal-printing.com/wp-content/uploads/2019/12/Royal-Printing-Logo.png",
+            "mLevel": "Gold",
+            "cPerson": "Marcy Chapman",
+            "email": "mchapman@royalprint.net"
+        },
+        {
+            "name": "Yingling Builders",
+            "address": "106 Damon Rd Mount Sterling IL 62353",
+            "phone": "(217) 242-9761",
+            "url": "https://www.yinglingbuilders.com/",
+            "logo": "https://du9m0k402rjmo.cloudfront.net/images/P_31484/0d468e12-2349-4737-906d-d4f789aee31a.jpg",
+            "mLevel": "Platnium",
+            "cPerson": "Ying Ling",
+            "email": "syingling@yinglingbuilders.com"
+        },
+        {
+            "name": "C.L. Campbell Construction",
+            "address": "1627 State Highway 78 N Jacksonville IL 62650",
+            "phone": "1627 State Highway 78 N Jacksonville IL 62650",
+            "url": "https://clccroofing.com/",
+            "logo": "https://clccroofing.com/wp-content/uploads/2021/09/Logo-WhiteMedium.png",
+            "mLevel": "Diamond",
+            "cPerson": "Campbell Longjohn",
+            "email": "clongjohn@clconstruction.com"
+        },
+        {
+            "name": "Heartland Bank and Trust Company",
+            "address": "1604 W. Morton Ave. Jacksonville IL 62650",
+            "phone": "(217) 243-0660",
+            "url": "https://www.townandcountrybank.com/",
+            "logo": "https://www.hbtbank.com/assets/images/logo@2x.png",
+            "mLevel": "Bronze",
+            "cPerson": "Sally Heart",
+            "email": "sheart@hearlandbank.com"
+        },
+        {
+            "name": "Community State Bank Franklin",
+            "address": "P.O. Box 200 Franklin IL 62638",
+            "phone": "(217) 675-2311",
+            "url": "https://www.jacksonvilleareachamber.org/list/member/community-state-bank-franklin-franklin-228",
+            "logo": "https://chambermaster.blob.core.windows.net/userfiles/UserFiles/chambers/3277/CMS/Jacksonville-Chamber-Color(1)-w6000.jpg",
+            "mLevel": "Diamond",
+            "cPerson": "Connie Francis",
+            "email": "cfrancis@communitybank.com"
+        },
+        {
+            "name": "Blessings on State Bed & Breakfast",
+            "address": "1109 W. State Jacksonville IL 62650",
+            "phone": "(217) 245-1013",
+            "url": "https://blessingsonstate.com/",
+            "logo": "https://blessingsonstate.com/wp-content/uploads/header-logo-440x150.jpg",
+            "mLevel": "Silver",
+            "cPerson": "Mary Jones",
+            "email": "mjones@blessings.com"
+        },
+        {
+            "name": "Turner Tree Service",
+            "address": "130 W. Walnut Jacksonville IL 62650",
+            "phone": "(217) 243-7479",
+            "url": "https://www.turnertreeservices.com/",
+            "logo": "https://lirp.cdn-website.com/2d3bbb6d84444af3aba86907ff49af2b/dms3rep/multi/opt/06604b7-317w.png",
+            "mLevel": "Bronze",
+            "cPerson": "Tyson Turner",
+            "email": "tturner@turnertreeservice.com"
+        }
+    ]
+}
