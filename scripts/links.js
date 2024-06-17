@@ -5,32 +5,33 @@ const linksURL = "https://yjohnson67.github.io/wdd230/data/links.json";
 async function getLinks() {
     const response = await fetch(linksURL);
     const data = await response.json();
-   
-    weeks= Object.keys(data);
-    displayLinks(data,weeks);
+    //console.log(data);
+    let dataList = data['lessons'];
+    dataList.forEach(displayLinks);
 }
  
-function displayLinks(data,weeks) {
-    weeks.forEach(week => {
+function displayLinks(data) {
         //Build Element
         let li = document.createElement("li");
         //Build li
-        li.textContent = week + ": ";
+        li.textContent = `${data.lesson}: `;
        
- 
-        data[week].forEach(links => {
-            //Build Element linkCon/Link Content
+        //Loop the link info so we get them all
+        data.links.forEach(() => {
+            //Build Element
             let a = document.createElement("a");
-            //Build a
-            a.setAttribute("href", links.url);
-            a.textContent = links.lesson + " | ";
-            //create loop
-            li.appendChild(a);
-        });
-       
- 
+            //Define an index variable
+            let n = 0;
+            //Set attributes for a element
+            a.setAttribute("href", data.links[n].url);
+            a.textContent = `${data.links[n].title}| `;
+            //Create loop
+            ++n
+            li.appendChild(a);    
+            });
+   
+        //Loop back to create a new li
         listEl.appendChild(li);
-    });
-}
+        };
  
 getLinks();
