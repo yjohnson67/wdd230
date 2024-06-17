@@ -1,6 +1,6 @@
 const listEl = document.querySelector("#weeks");
-const baseURL = "https://yjohnson.github.io/wdd230/";
-const linksURL = "https://yjohnson.github.io/wdd230/data/links.json";
+const baseURL = "https://yjohnson67.github.io/wdd230/";
+const linksURL = "https://yjohnson67.github.io/wdd230/data/links.json";
  
 async function getLinks() {
     const response = await fetch(linksURL);
