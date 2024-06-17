@@ -60,9 +60,11 @@ ul {
 }
  
 li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   margin: auto;
+   max-width: 40%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
 }
  
 footer {
