@@ -367,7 +367,8 @@ textarea {
 /*Discover*/
 
 h1 {
-
+    color: var(--secondary-color);
+    font-family: (var(--paragraph-font));
 }
 
 #cards {
