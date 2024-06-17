@@ -26,7 +26,8 @@ function displayLinks(data) {
             a.setAttribute("href", data.links[n].url);
             a.textContent = `${data.links[n].title}| `;
             //Create loop
-            ++n
+            n++;
+            console.log(n);
             li.appendChild(a);    
             });
    
