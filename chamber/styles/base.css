@@ -23,12 +23,13 @@ body {
  
 header {
     font-family: var(--heading-font);
-    background-color: var(--secondary-color);
-    display: inline-flex;
+    /*background-color: var(--secondary-color);*/
+    /*display:flex;*/
+    /*flex-direction: row;*/
     /*align-content: center;*/
     background-color: var(--accent2-color);
     /*padding: 0;*/
-   
+    text-align: center;
 }
 
 #mode {
@@ -42,14 +43,9 @@ header {
 
 header img {
     height: 100%;
-    max-width: 5rem;
-    margin: 0.25rem;
-    
-}
-
-header img {
-    width: 30rem;
-}
+    max-width: 4rem;
+    margin: 0.25;
+} 
 
 /* Hamburger Menu */
 #menu {
