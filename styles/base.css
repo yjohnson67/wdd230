@@ -102,8 +102,7 @@ nav a {
 }
 
 iframe {
-    width: 150px;
-    height: 150px;
+    width: 100%;
 }
 
 /* Style footer */
@@ -203,5 +202,16 @@ footer p {
 
 a:visited {
     color:green;
+}
+
+/* Weather Information */
+#desc {
+    text-transform: capitalize;
+}
+ 
+#lOne {
+    display:flex;
+    margin: 1rem 0;
+    align-items: center;
 }
 
