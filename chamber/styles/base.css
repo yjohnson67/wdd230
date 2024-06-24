@@ -394,3 +394,10 @@ h1 {
     width: auto;
 }
 
+/* Forcast Display */
+#fData {
+    display: flex;
+    margin: 0.25rem;
+    justify-content: space-between;
+   
+}
