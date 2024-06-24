@@ -399,5 +399,9 @@ h1 {
     display: flex;
     margin: 0.25rem;
     justify-content: space-between;
-   
+    margin: 0 2rem;
+}
+ 
+#fData div {
+    margin: 0.25rem;
 }
