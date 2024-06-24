@@ -405,3 +405,12 @@ h1 {
 #fData div {
     margin: 0.25rem;
 }
+
+.color {
+    background-color: var(--accent1-color);
+    margin: 0;
+}
+
+.local h3 {
+    margin: 1rem 0;
+}
