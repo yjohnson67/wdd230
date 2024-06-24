@@ -412,5 +412,6 @@ h1 {
 }
 
 .local h3 {
-    margin: 1rem 0;
+    margin: 0;
+    padding: 1rem 0 0.5rem 0;
 }
