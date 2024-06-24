@@ -11,8 +11,9 @@ if (day === 1 || day === 2 || day === 3) {
         // empty, do nothing    
     } else {
         const navHeight = document.querySelector('nav').offsetHeight;
+        const headerHeight = document.querySelector('header').offsetHeight;
         //console.log(navHeight);
-        announcement.style.top = `${navHeight}px`;
+        announcement.style.top = `(${headerHeight}+${navHeight})px`;
     }
 } else {
     announcement.style.top = '-100px';
@@ -20,7 +21,7 @@ if (day === 1 || day === 2 || day === 3) {
  
 // handle closed announcement
 function hideAnnouncement() {
-    //console.log('Button Clicked');
+    console.log('Button Clicked');
     announcement.style.top = '-100px';
     localStorage.setItem('announcement', 'hidden');
 }

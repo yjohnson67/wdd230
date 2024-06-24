@@ -39,7 +39,7 @@ header {
 
 #logo {
     max-width: 4rem;
-    margin: 0.25;
+    margin: 0.25rem;
 } 
 
 /* Hamburger Menu */
@@ -373,7 +373,7 @@ textarea {
 
 h1 {
     color: var(--secondary-color);
-    font-family: (var(--paragraph-font));
+    font-family: (var(--heading-font));
     margin: 0;
 }
 
@@ -420,7 +420,7 @@ h1 {
 .announcement {
     background-color: #e70d43;
     color: #efefef;
-    position: fixed;
+    position:absolute;
     z-index: 1;
     left: 0;
     right: 0;
