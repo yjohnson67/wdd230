@@ -61,13 +61,13 @@ const urlF = 'https://api.openweathermap.org/data/2.5/forecast?lat=29.56&lon=-95
 const fDiv = document.querySelector('#fData');
   // API Pull on line 11 const url
  
-async function forcastFetch() {
+async function forecastFetch() {
   try {
     const response = await fetch(urlF);
     if (response.ok) {
       const data = await response.json();
       console.log(data);
-      displayForcast(data);
+      displayForecast(data);
     } else {
         throw Error(await response.text());
     }
@@ -76,9 +76,9 @@ async function forcastFetch() {
   }
 }
  
-forcastFetch();
+forecastFetch();
  
-const displayForcast = (data) => {
+const displayForecast = (data) => {
  
   for (let aNum=0; aNum<25; aNum=aNum+8) {
     if (aNum < 25) {
