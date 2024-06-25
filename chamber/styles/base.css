@@ -213,15 +213,6 @@ footer p, footer label {
     padding: 0.25rem
 }
 
-/*#mode {
-	position: absolute;
-	top: 3.5rem;
-	right: 1rem;
-	font-size: 3rem;
-	cursor: pointer;
-	font-size: 2rem;
-}*/
-
 .weather ul {
     list-style: none;
     padding: 0;
@@ -242,6 +233,7 @@ header img {
     margin: 1rem;
 }
 
+/*Discover Page CSS*/
 #demo, #events, #attractions, #visits {
     border: 0.25rem solid var(--accent1-color);
     border-radius: 1rem;
@@ -260,9 +252,19 @@ header img {
     margin: 0.25rem 0;
 }
 
+#discover {
+    background-color: var(--accent3-color);
+}
+
+.mArea h1 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
 .mArea picture img {
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     margin: 0.25rem;
     object-fit: cover;
     width: 100%;
@@ -373,7 +375,6 @@ textarea {
 
 h1 {
     color: var(--secondary-color);
-    font-family: (var(--heading-font));
     margin: 0;
 }
 

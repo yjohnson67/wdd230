@@ -53,6 +53,10 @@ body p, body label {
     visibility: hidden;
 }
  
+/* Discover Page CSS */
+
+/* The Sidebar */
+
 .sidebar {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 300px; /* Set the width of the sidebar */
@@ -61,18 +65,18 @@ body p, body label {
     top: 0; /* Stay at the top */
     left: 0;
     background-color: var(--accent2-color);
-    overflow-x: hidden;
+    overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 10px;
 }
 
-#demo:hover, #events:hover, #attractions:hover, #visits:hover {
+/*#demo:hover, #events:hover, #attractions:hover, #visits:hover {
     background-color: var(--accent1-color);
-}
+}*/
 
 
 #discover {
     margin-left: 300px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 .jpage {
