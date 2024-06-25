@@ -26,6 +26,7 @@ header {
     display:flex;
     background-color: var(--accent2-color);
     text-align: center;
+    align-items: center;
 }
 
 #mode {
@@ -90,7 +91,7 @@ header {
 
 .navigation a:hover {
     font-weight: 700;
-    color: var(--accent3-color);
+    color: var(--secondary-color);
 }
 
 /* when the button is clicked - the open class is toggled (added/removed) */
@@ -228,7 +229,7 @@ footer p, footer label {
 
 
 header img {
-    width: 10rem;
+    width: 5rem;
     display: block;
     margin: 1rem;
 }
@@ -260,6 +261,7 @@ header img {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     text-align: center;
+    margin: 2rem 0;
 }
 
 .mArea picture img {
