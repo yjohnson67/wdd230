@@ -480,3 +480,34 @@ h1 {
     justify-content: space-between;
     margin: 0 2rem;
 }
+
+.color {
+    background-color: var(--accent1-color);
+}
+
+/* Spotlight */
+.spotlight {
+    align-items: center;
+    margin: 0.5rem;
+    text-align: center;
+}
+ 
+#spotContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.spotlight div {
+    margin: 3rem 1rem;
+    text-align: center;
+    border: 4px solid var(--secondary-color);
+    padding: 0.5rem;
+    background-color: var(--accent3-color);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+    width: 270px;
+}
+ 
+.spotlight div h2, .spotlight div h3, .spotlight div a {
+    color: var(--accent1-color);
+}

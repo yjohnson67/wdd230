@@ -1,21 +1,21 @@
-const spotContainer = document.querySelector('spotContainer');
-const contli = 'https://yjohnson67.github.io/wdd230/chamber/data/members.json';
-
+const spotContainer = document.querySelector("#spotContainer");
+const contLi = 'https://yjohnson67.github.io/wdd230/chamber/data/members.json';
+ 
 async function getSpot() {
     const response = await fetch(contLi);
     const data = await response.json();
     console.log(data);
     let dataCont = data ['members'];
     displaySpot(dataCont);
-}
+};
  
 function displaySpot(data) {
  
-    for (let i=0; i<3; i++) {
-        if (i<3) {
+    for (let i=0; i<2; i++) {
+        if (i<2) {
  
             //Filter to find Silver or Gold status
-            const filteredMemb = data.filter(members => (members.mLevel === "Gold Member") || (members.mLevel === "Silver Member"));
+            const filteredMemb = data.filter(members => (members.mLevel === "Platinum") || (members.mLevel === "Diamond"));
  
             //Randomly Select One
             const randomIndex = Math.floor(Math.random()*filteredMemb.length);
@@ -54,3 +54,4 @@ function displaySpot(data) {
 }
  
 getSpot();
+

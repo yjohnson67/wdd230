@@ -99,4 +99,14 @@ body p, body label {
     ;
 }
 
+#spotContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 6rem 2rem 6rem;
+}
+ 
+.spotlight div {
+    width: 350px;
+}
+
 }
