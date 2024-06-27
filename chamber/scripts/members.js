@@ -1,12 +1,14 @@
 const cardEl = document.querySelector("#cards");
 const contLi = 'https://yjohnson67.github.io/wdd230/chamber/data/members.json';
+
  
 async function getCont() {
     const response = await fetch(contLi);
     const data = await response.json();
-    //console.log(data);
+    console.log(data);
     let dataCont = data ['members'];
     dataCont.forEach(displayCont);
+    
 }
  
 function displayCont(data) {
@@ -54,3 +56,6 @@ function displayCont(data) {
 }
  
 getCont();
+
+
+

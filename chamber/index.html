@@ -54,11 +54,7 @@
             </div>
   
         <div class="local">
-            <article>
-                <h3>Events</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ex aut rem dolores commodi, vel vitae dolor atque 
-                    exercitationem corrupti distinctio eveniet, ducimus quia vero fuga voluptatem ea, voluptatum ipsa.</p>
-            </article>
+            
             <article>
                 <h3>Weather</h3>
                 <div class="weather">
@@ -67,16 +63,25 @@
                         <li><span id=wSpeed></span></li>
                         <li><span id=windchill></span></li>
                     </ul>
-                    <ul>
+                    <!--<ul>
                         <li id="visits"><span>Number of Visits: </span><span class="visits"></span></li>
-                    </ul>
+                    </ul>-->
                 </div>
             </article>
             <article class="color">
-                <h3>6am Forecast</h3>
+                <h3>Forecast</h3>
                 <span id="fData"></span>
                 <!--forcast data-->
             </article>
+        </div>
+        <div class="circles">
+            <button><img src="images02/advocacy.png" alt="advocacy" width="100" height="100"><br>Advocacy</button>
+            <button><img src="images02/networking.png" alt="networking" width="100" height="100"><br>Networking</button>
+            <button><img src="images02/support.png" alt="support" width="100" height="100"><br>Support</button>
+        </div>
+        <div class="spotlight">
+            <h2>Member Spotlight</h2>
+            <span id="spotContainer"></span>
         </div>
         <div class="boxes">
             <article>
@@ -124,6 +129,9 @@
         <p>Long John Chamber of Commerce | ©2024 <br>Yvette Johnson | WDD 230 Project </p>
         <label>last modified: <span id="last-modified"></span></label><br>
         <img src="images/flag.webp" alt="flag">
+        <ul>
+            <li id="visits"><span>Number of Visits: </span><span class="visits"></span></li>
+        </ul>
         </div>
         <!--social media links-->
         <div class="social-links">
@@ -138,5 +146,6 @@
     <script src="scripts/weather.js"></script>
     <script src="scripts/last-visited.js"></script>
     <script src="scripts/announcement.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body> 
 </html>

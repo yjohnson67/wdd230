@@ -84,4 +84,19 @@ body p, body label {
     grid-template-columns: 1fr 1fr;
 }
 
+.circles {
+    margin: 4rem 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.circles button {
+    margin: 1rem;
+}
+
+#fData {
+    flex-direction: row
+    ;
+}
+
 }

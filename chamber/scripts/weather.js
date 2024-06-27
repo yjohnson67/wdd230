@@ -6,6 +6,7 @@ const captionDesc = document.querySelector('#desc');
 const wSpeed= document.querySelector('#wSpeed');
 const windchill = document.querySelector('#windchill');
 const nullstr= "Not Applicable";
+const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
  
  
 //API call
@@ -80,16 +81,25 @@ forecastFetch();
  
 const displayForecast = (data) => {
  
-  for (let aNum=0; aNum<25; aNum=aNum+8) {
-    if (aNum < 25) {
+  for (let aNum=3; aNum<30; aNum=aNum+8) {
+    if (aNum < 30) {
       //Build div
       let div = document.createElement('div');
-      let tempDate = document.createElement('p');
-      let fTemp = document.createElement('p');
-
+      let tempDate = document.createElement('h3');
+      let fTemp = document.createElement('p');  
+ 
+      //Day of the Week
+      let d = new Date(data.list[aNum].dt * 1000);
+      let day = weekday[d.getDay()];
+      tempDate.textContent = day;
+ 
       fullDate = `${data.list[aNum].dt_txt}`;
-      tempDate.textContent = fullDate.substring(5,10);
-      fTemp.textContent = `${data.list[aNum].main.temp}°F`;
+      tempDN = fullDate.substring(8,10);
+ 
+      tempDate.textContent = day + ' ' + tempDN;
+     
+      //Temp
+      fTemp.textContent = `12pm: ${data.list[aNum].main.temp}°F`;
  
       div.appendChild(tempDate);
       div.appendChild(fTemp);
