@@ -121,6 +121,7 @@ header {
 .local {
     text-align: center;
     padding: 0.5rem;
+    background-color: var(--accent3-color);
 }
 
 .hero article {
@@ -171,13 +172,14 @@ main p {
 .boxes {
     width: 20rem;
     margin: auto;
-    text-align: center;
+    text-align: center;   
 }
 
 .boxes article {
     border: 4px solid var(--primary-color);
     padding: .5rem;
     margin: .5rem;
+    background-color: var(--accent3-color);
 }
 
 #flag img{
@@ -314,7 +316,7 @@ h2 {
     font-family: var(--heading-font);
 }
 
-#register label{
+#register label, .news label{
     display: block;
     padding: 1rem;
     color: var(--primary-color);
@@ -356,7 +358,7 @@ textarea {
     width: 10rem;
 }
 
-#register input[type=submit] {
+#register input[type=submit]{
     border: none;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -400,9 +402,11 @@ h1 {
 /* Forcast Display */
 #fData {
     display: flex;
-    margin: 0.25rem;
     justify-content: space-between;
     margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
  
 #fData div {
@@ -412,6 +416,7 @@ h1 {
 .color {
     background-color: var(--accent1-color);
     margin: 0;
+    border-radius: 1rem;
 }
 
 .local h3 {
@@ -470,19 +475,6 @@ h1 {
     font-family: var(--paragraph-font);
     color: var(--accent1-color);
     margin:2rem
-}
-
-/*Frocast Display*/
-#fData {
-    display: flex;
-    margin: 0.25;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 2rem;
-}
-
-.color {
-    background-color: var(--accent1-color);
 }
 
 /* Spotlight */
