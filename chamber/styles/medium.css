@@ -109,4 +109,23 @@ body p, body label {
     width: 350px;
 }
 
+/*Directory*/
+.toggleView {
+    padding-left: 85%;
+}
+ 
+.listView {
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.listView p {
+    text-align: right;
+    align-items: center;
+}
+ 
+.listView h2 {
+    text-align: left;
+}
+
 }

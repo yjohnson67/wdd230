@@ -27,3 +27,4 @@ if (!lastVisit) {
 numVisits++;
 localStorage.setItem("numVisits", numVisits);
 localStorage.setItem("lastVisit", currentDate);
+
