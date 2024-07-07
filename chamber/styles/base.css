@@ -54,12 +54,12 @@ header {
 }
 #menu::before {
     content: "☰";
-    color: var(--accent3-color);
+    color: var(--secondary-color);
 }
  
 #menu.open::before {
     content: "X";
-    color: var(--accent3-color);
+    color: var(--secondary-color);
 }
  
 #mhead {
