@@ -521,7 +521,7 @@ h1 {
     width: 270px;
 }
 .spotlight div h2, .spotlight div h3, .spotlight div a {
-    color: var(--accent1-color);
+    color: var(--secondary-color);
 }
 
 /*Directory*/
