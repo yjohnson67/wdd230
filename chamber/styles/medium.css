@@ -1,15 +1,16 @@
 @media screen and (min-width: 650px){
 
     :root {
-        --primary-color: #736360;   
+        :root {
+        --primary-color: #bbb1af;   
         --secondary-color: #483f58; 
-        --accent1-color: #d9cba3;
+        --accent1-color: #e0dac7;
         --accent2-color: #f2ebdc;
-        --accent3-color: #a69992;
+        --accent3-color: #dfd5d0;
         --heading-font: "roboto", sans-serif;
         --paragraph-font: "source sans 3", sans-serif;
     } 
-
+    }
 .hero article {
     top: 1.00rem;
     padding: 1rem;
