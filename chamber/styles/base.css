@@ -3,11 +3,11 @@ This sets colors and fonts for all pages with this css applie,
     to change any font or color cimply update the root and all pages will update.
     How to use ex. eolor: var(--primary-color);*/
     :root {
-        --primary-color: #bbb1af;   
+        --primary-color: #d5c7c4;   
         --secondary-color: #483f58; 
         --accent1-color: #e0dac7;
         --accent2-color: #f2ebdc;
-        --accent3-color: #dfd5d0;
+        --accent3-color: #e7dcd6;
         --heading-font: "roboto", sans-serif;
         --paragraph-font: "source sans 3", sans-serif;
 }

@@ -1,15 +1,14 @@
 @media screen and (min-width: 730px){
     :root {
-        :root {
-        --primary-color: #bbb1af;   
+        --primary-color: #d5c7c4;   
         --secondary-color: #483f58; 
         --accent1-color: #e0dac7;
         --accent2-color: #f2ebdc;
-        --accent3-color: #dfd5d0;
+        --accent3-color: #e7dcd6;
         --heading-font: "roboto", sans-serif;
         --paragraph-font: "source sans 3", sans-serif;
     }
-    }
+    
 .boxes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
