@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+    --secondary-color:  #8E0727;
+    --primary-color: #252429;
+    --accent-color2: #694d36;
+
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Source Sans 3' , sans-serif;
+}
+
+header {
+    font-family: var(--heading-font);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.75rem;
+}
+
+header h1 {
+    margin: 0.75rem;
+    color: var(--secondary-color);
+    font-size: 60px;
+}
+
+.navagation {
+    margin: 0.5rem;
+    margin-left: auto;
+}
+
+.navagation ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navagation a{
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*Hero*/
+#hero, #local, #options {
+    margin-top: 3rem;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#hero div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hero img {
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+}
+
+#hero h2 , #local h2{
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin: 0.75;
+}
+
+#hero p, #local p, #options section li {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin: 0.75;
+}
+
+#hero button {
+    font-family: var(--paragraph-font);
+    color: white;
+    background-color: var(--primary-color);
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin: 0.75;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 4px 4px 2px var(--secondary-color);
+}
+
+/*local weather*/
+
+#localGrid, #options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#local section h3, #options section h3,  {
+    font-family: var(--primary-color);
+    color: var(--primary-color);
+    margin: 0.75rem;
+}
+
+/*Options*/
+
+#options section img {
+    width: 20rem;
+}
+
+/*footer*/
+    
+footer {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-content: center;
+    margin: 0.75;
+    background-color: var(--accent-color2);
+}
+
+footer h3 {
+    font-family: var(--accent-color2);
+    color: var(--secondary-color);
+    margin: 0.75;
+}
+
+footer p{
+    font-family: var(--paragraph-font);
+    color: white;
+    margin: 0.75;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-links img {
+    width: 1.75rem;
+    padding: 0.25rem;
+    margin: 0.25rem;
+    background-color: var(--accent-color2);
+    border-radius: 0.75rem;
+}
