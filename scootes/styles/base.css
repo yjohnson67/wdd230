@@ -28,9 +28,34 @@ header h1 {
     font-size: 60px;
 }
 
+/* Hamburger Menu */
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 1.3rem;
+	right: 4rem;
+}
+#menu::before {
+    content: "☰";
+    color: var(--secondary-color);
+}
+ 
+#menu.open::before {
+    content: "X";
+    color: var(--secondary-color);
+}
+ 
+/*#mhead {
+    text-align: left;
+    align-content: center;
+    font-size: 30px;
+}*/
+ 
 .navagation {
-    margin: 0.5rem;
-    margin-left: 10rem;
+    display: flex;
+    flex-direction: column;
     background-color: var(--secondary-color);
     padding: .5rem;
 }
@@ -41,15 +66,27 @@ header h1 {
     align-content: center;
     list-style: none;
     padding: 0;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .navagation a{
-    margin: 0.5rem 1rem;
+    display: none;
+    margin: 0.5rem 2rem;
+    text-align: center;
     text-decoration: none;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+    font-size: larger;
+    padding: 1rem;
+}
+
+.navagation a:hover {
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-decoration: underline;
 }
 
 /*Hero*/
@@ -57,15 +94,6 @@ header h1 {
     margin-top: 3rem;
 }
 
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
-/*#hero div {
-    margin-top: auto;
-    margin-bottom: auto;8?
-}*/
 
 #hero img {
     width: 100%;
@@ -99,10 +127,10 @@ header h1 {
 
 /*local weather*/
 
-#localGrid, #options {
+/*#localGrid, #options {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+}*/
 
 #local section h3, #options section h3 {
     font-family: var(--primary-color);
@@ -118,17 +146,17 @@ header h1 {
 
 /*footer*/
     
-footer {
+/*footer {
     display: grid;
     grid-template-columns: 4fr 1fr;
     align-content: center;
-    margin: 0.75;
+    padding: 0.75;
     background-color: var(--accent-color2);
-}
+}*/
 
 footer h3 {
     font-family: var(--accent-color2);
-    color: var(--secondary-color);
+    color: white;
     margin: 0.75;
 }
 

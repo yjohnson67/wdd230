@@ -98,7 +98,7 @@ header {
 .open a {
     display: block;
 }
- 
+ /*Hamburger ends 
 /* wayfinding symbol for the user */
 .navigation .active {
     text-decoration: underline;

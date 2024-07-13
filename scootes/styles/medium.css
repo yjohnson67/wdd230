@@ -1,0 +1,31 @@
+@media screen and (min-width: 600px) {
+
+    :root {
+        --secondary-color:  #8E0727;
+        --primary-color: #252429;
+        --accent-color2: #694d36;
+    
+        --heading-font: 'Oswald', sans-serif;
+        --paragraph-font: 'Source Sans 3' , sans-serif;
+    }
+
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #localGrid, #options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        padding: 0.75;
+        background-color: var(--accent-color2);
+    }
+}
+    
+}
