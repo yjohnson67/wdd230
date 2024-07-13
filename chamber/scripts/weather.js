@@ -10,7 +10,7 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
  
  
 //API call
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=29.56&lon=-95.28&units=imperial&appid=88a5641f3de339bd5023e3c2da5b5b30 ';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=29.56&lon=-95.28&units=imperial&appid=88a5641f3de339bd5023e3c2da5b5b30';
 //39.73371637386022, -90.22883862165104
  
 //asynchronous function named "apiFetch()" that uses a try block to handle errors
@@ -54,7 +54,7 @@ function displayResults(data) {
     } else {
       windchill.textContent = "Wind Chill: " + nullstr;
     }
-}
+}       
  
  
 //Forcast

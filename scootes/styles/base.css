@@ -30,7 +30,9 @@ header h1 {
 
 .navagation {
     margin: 0.5rem;
-    margin-left: auto;
+    margin-left: 10rem;
+    
+    
 }
 
 .navagation ul{
@@ -102,7 +104,7 @@ header h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#local section h3, #options section h3,  {
+#local section h3, #options section h3 {
     font-family: var(--primary-color);
     color: var(--primary-color);
     margin: 0.75rem;

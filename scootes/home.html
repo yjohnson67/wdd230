@@ -20,19 +20,7 @@
     <meta property="og:url" content="#">
 </head>
 <body id="home">
-    <header>
-        <img src="images/scooter-front-view.png">
-        <h1>Scootes</h1>
-        <nav class="navagation">
-            <!--<button id="menu"></button>-->
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="a">Rentals</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Contact</a><li>
-            </ul>
-        </nav>
-    </header>
+  
     <main>
         <div id="hero">
             <div>
@@ -42,25 +30,38 @@
             </div>
                 <img src="images/hero.jpg"/>
         </div>
+        <header>
+            <img src="images/scooter-front-view.png">
+            <h1>Scootes</h1>
+            <nav class="navagation">
+                <!--<button id="menu"></button>-->
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="a">Rentals</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Contact</a><li>
+                </ul>
+            </nav>
+        </header>
         <div id="local">
             <h2>Local Weather</h2>
             <p>Plan your perfect rental adventure.</p>
             <div id="localGrid">
                 <section>
                     <h3>Current Weather</h3>
-                    <p>Temperature<br>
-                       Humidity<br>
-                       Description<br>
-                       Icon</p>
+                    <p><span id= "curTemp"></span><br>
+                       <span id= "curHumidity"></span><br>
+                       <span id= "curDesc"></span></p>
+                       <img id="icon" alt = "#" src = "#">
                 </section>
                 <section>
                     <h3>Tomorrows Forecast</h3>
-                    <p>Temperature<br>
-                       Humidity<br>
-                       Descrition<br>
-                       Icon</p>
+                    <p><span id= "futTemp"></span><br>
+                       <span id = "futHumidity"></span><br>
+                       <span id = "futDesc"></span></p>
+                       <img id="fIcon" alt = "#" src = "#">
                 </section>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1720763008808!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d239293.76244058926!2d-87.0284159!3d20.4255199!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4ef8efb0d19327%3A0x342ebcae5c018bfc!2sCozumel!5e0!3m2!1sen!2sus!4v1720763008808!5m2!1sen!2sus" width="550" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
         <div>
@@ -81,27 +82,27 @@
                     <li>Honda Pioneer 1000 - 4 person</li>
                 </ul>
             </section>
-            <sesction>
+            <section>
                 <img src="images/jeep.png">
                 <h3>Jeep Wrangler</h3>
                 <ul>
                     <li>4door manuel with A/C - 5 person</li>
                     <li>2 door - open air - manual - 4 person</li>
                 </ul>
-            </sesction>
+            </section>
            
         </div>
     </main>
     <footer>
-        <p>Phone<br>
-           Address<br>
-           Business Hours</p>
+        <p>Phone: 52.800.726.6837<br>
+           Address: Av. Rafael E. Melgar 602-C, Centro, 77600 Cozumel, Q.R., Mexico<br>
+           Business Hours: 6:00 am - 9:00 pm</p>
         <nav class="social-links">
             <a href="https://www.facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
             <a href="https://www.tiktok.com"><img src="images/tik-tok-01-64.webp" alt="Tiktok"></a>
             <a href="https://www.instagram.com"><img src="images/instagram-64.webp" alt="Instagram"></a>
         </nav>
     </footer>
-    
+   <script src="scripts.js/scootsWeather.js"></script>
 </body>
 </html>
