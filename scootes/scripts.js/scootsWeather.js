@@ -8,7 +8,7 @@ const curHumidity = document.querySelector('#curHumidity');
 const futTemp = document.querySelector('#futTemp');
 const futDesc = document.querySelector('#futDesc');
 const futHumidity = document.querySelector('#futHumidity');
-const fIcon = document.querySelector('#Ficon');
+const fIcon = document.querySelector('#fIcon');
 
 
 //API call
