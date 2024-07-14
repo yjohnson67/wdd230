@@ -185,16 +185,9 @@ table {
     border-collapse: collapse;
 }
 
-thead {
-    padding: 10px;
-    caption-side: bottom;
-      color: var(--primary-color);
-      font-size: .85rem;
-  }
-
-  tr:second-child th, #empty{
+    tr:second-child th, #empty{
     background-color: var(--primary-color);
-    color: var(--seconday-color);
+    color: var(--secondary-color);
     border: 1px solid var(--primary-color);
 }
 
@@ -203,10 +196,25 @@ th, td {
     border: 1px solid var(--accent1-color);
 }
 
-th {
-    background-color: var(--accent1-color);
-    font-size: larger;
-    color: var(--seconday-color);
+th, td {
+    padding: 7px 15px;
+    border: 1px solid var(--accent1-color);
 }
+
+
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid #d4d4d4; /* Example color */
+}
+
+
+
+
+
+
+
+
+
 
 
