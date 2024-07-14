@@ -1,24 +1,39 @@
 @media screen and (min-width: 600px) {
-
+ 
     :root {
         --secondary-color:  #8E0727;
         --primary-color: #252429;
         --accent-color2: #694d36;
-    
         --heading-font: 'Oswald', sans-serif;
         --paragraph-font: 'Source Sans 3' , sans-serif;
     }
-
+ 
+     #menu {
+        display: none;
+    }
+ 
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+ 
+    .navigation a{
+        padding: 0.5rem;
+        display: block;
+        text-align: center;
+    }
+ 
     #hero {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
-
+ 
     #localGrid, #options {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+ 
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -27,5 +42,4 @@
         background-color: var(--accent-color2);
     }
 }
-    
 }

@@ -1,177 +1,173 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-
+ 
 :root {
     --secondary-color:  #8E0727;
     --primary-color: #252429;
     --accent-color2: #694d36;
-
+ 
     --heading-font: 'Oswald', sans-serif;
     --paragraph-font: 'Source Sans 3' , sans-serif;
 }
-
+ 
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+ 
+body {
+	min-width: 300px;
+	margin:0;
+}
+ 
 header {
     font-family: var(--heading-font);
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
+ 
 header img {
     width: 4rem;
     height: 4rem;
     margin: 0.75rem;
 }
-
+ 
 header h1 {
     margin: 0.75rem;
     color: var(--secondary-color);
     font-size: 60px;
 }
-
-/* Hamburger Menu */
+ 
+.navigation {
+    margin: 0.5rem;
+    margin-left: auto;
+	background-color: var(--secondary-color);
+}
+ 
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+ 
+.navigation a {
+    margin: 0.5rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;    
+}
+ 
+/* HAMBURGER */
 #menu {
 	font-size: 1.5rem;
 	border: 0;
 	background: none;
 	position: absolute;
-	top: 1.3rem;
-	right: 4rem;
+	top: 5.5rem;
+	right: 1rem;
 }
+ 
 #menu::before {
-    content: "☰";
+	content: "☰";
     color: var(--secondary-color);
 }
  
 #menu.open::before {
-    content: "X";
+	content: "X";
     color: var(--secondary-color);
 }
  
-/*#mhead {
-    text-align: left;
-    align-content: center;
-    font-size: 30px;
-}*/
+.navigation a {
+	display: none;
+	padding: 1rem;
+}
  
-.navagation {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--secondary-color);
-    padding: .5rem;
+.open a {
+	display: block;
 }
-
-.navagation ul{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    list-style: none;
-    padding: 0;
-    justify-content: center;
-}
-
-.navagation a{
-    display: none;
-    margin: 0.5rem 2rem;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--secondary-color);
-    font-family: var(--heading-font);
-    font-size: larger;
-    padding: 1rem;
-}
-
-.navagation a:hover {
-    font-weight: 700;
-    color: var(--secondary-color);
-    text-decoration: underline;
-}
-
+ 
 /*Hero*/
 #local, #options {
     margin-top: 3rem;
 }
-
-
+ 
 #hero img {
     width: 100%;
     height: 20rem;
     object-fit: cover;
 }
-
+ 
+#hero div {
+	margin-bottom: 1rem;
+}
+ 
 #hero h2 , #local h2{
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    margin: 0.75;
+    margin: 0.75rem;
 }
-
+ 
 #hero p, #local p, #options section li {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
-    margin: 0.75;
+    margin: 0.75rem;
 }
-
+ 
 #hero button {
     font-family: var(--paragraph-font);
     color: white;
     background-color: var(--primary-color);
     text-transform: uppercase;
     padding: 0.5rem;
-    margin: 0.75;
+    margin: 0.75rem;
     border: none;
     border-radius: 0.75rem;
     box-shadow: 4px 4px 2px var(--secondary-color);
 }
-
+ 
 /*local weather*/
-
-/*#localGrid, #options {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}*/
-
+ 
+#local {
+	background-color: floralwhite;
+}
+ 
 #local section h3, #options section h3 {
     font-family: var(--primary-color);
     color: var(--primary-color);
     margin: 0.75rem;
 }
-
+ 
 /*Options*/
-
+ 
 #options section img {
     width: 20rem;
 }
-
+ 
 /*footer*/
-    
-/*footer {
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+footer {
     align-content: center;
-    padding: 0.75;
+    padding: 0.75rem;
     background-color: var(--accent-color2);
-}*/
-
+}
+ 
 footer h3 {
     font-family: var(--accent-color2);
     color: white;
-    margin: 0.75;
+    margin: 0.75rem;
 }
-
+ 
 footer p{
     font-family: var(--paragraph-font);
     color: white;
-    margin: 0.75;
+    margin: 0.75rem;
 }
-
+ 
 .social-links {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
+ 
 .social-links img {
     width: 1.75rem;
     padding: 0.25rem;
