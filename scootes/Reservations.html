@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="desctiption" content="Reservations">
+    <meta name="author" content="Yvette Johnson">
+    <!--Styles-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/scooter-front-view.png">
+    <!--Open Graph Meta Tags-->
+    <meta property="og:title" content="#">
+    <meta property="og:type" content="#">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+</head>
+<body id="home">
+    <header>
+        <img src="images/scooter-front-view.png">
+        <h1>Scoots</h1>
+    </header>
+    <main>
+        <nav class="navigation">
+            <button id="menu"></button>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="a">Rentals</a></li>
+                <li><a href="#">Reservations</a></li>
+                <li><a href="#">Contact</a><li>
+            </ul>
+        </nav>
+    <div id="resform">
+        <h2>Lock In Your Rental</h2>
+        <p>Complete your booking details here:</p>
+        <form method="get" action="thank.html" class="form">
+            <fieldset>
+                <legend>Driver Information</legend>
+                <label>First Name <input type="text" name="fname" required></label>
+                <label>Last Name <input type="text" name="lname" required></label>
+                <label>Phone <input type="tel" name="tel" placeholder="+52.800.726.6837"required></label>
+                <label>Country <input type="text"required></label>
+                <label>Email <input type="email" name="email" placeholder="helloworld@email.com" required></label>
+                <label>Cruise Line <input type="text" name="Cruise" placeholder="optional"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Rental Information</legend>
+                <label>Rental Start Date <input type="Date" id="start" required></label>
+                <label>Number of Days <input type="text" id="numD" required></label>
+                <label for="type">Type of Vehicle</label>
+                <select name="type" id="type">
+                    <option value="Honda Metro Scooter">Honda Metro Scooter</option>
+                    <option value="Honda Dio Scooter">Honda Dio Scooter</option>
+                    <option value="Honda PCX150 Scooter">Honda PCX150 Scooter</option>
+                    <option value="Honda Pioneer ATV">Honda Pioneer ATV</option>
+                    <option value="Jeep Wrangler - 4 door with a/c">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="Jeep Wrangler - 2 door">Jeep Wrangler - 2 door</option>
+                </select>
+                <label>Drop Off Location <input type="text" id="dol" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Accommodations</legend>
+                <label>Accessibility <input type="text" placeholder="e.g., wheelchair access, sign language interpreter..."></label>
+            </fieldset>
+        </form>
+    </div>    
+       
+    </main>
+    <footer>
+        <div>
+            <h3>Scoots ©2024</h3>
+        <p>☎️ +52.800.726.6837<br>
+            📍Av. Rafael E. Melgar 602-C, Centro, 77600 Cozumel, Q.R., Mexico<br>
+            ⏰Open 7 Days a week: 6AM - 9PM.</p>
+        </div>
+        <nav class="social-links">
+            <a href="https://www.facebook.com"><img src="images/facebook.webp" alt="Facebook"></a>
+            <a href="https://www.tiktok.com"><img src="images/tik-tok-01-64.webp" alt="Tiktok"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram-64.webp" alt="Instagram"></a>
+        </nav>
+    </footer>
+   <script src="script/scootsWeather.js"></script>
+   <script src="script/hamburger.js"></script>
+
+</body>
+</html>
