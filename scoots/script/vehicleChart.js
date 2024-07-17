@@ -9,12 +9,12 @@ async function getCont() {
         //Access the right array
         let dataCont = data ['vehicles'][0]['vehicles'];
         //Clear existing rows
-        chart.innerHTML ='';
+        chart.innerHTML = '';
  
         dataCont.forEach(displayGrid);
     } catch (error) {
-    console.error('Error fetching data:', error)
-    }
+    console.error('Error fetching data:', error);
+    } 
 }
  
 function displayGrid(data) {
