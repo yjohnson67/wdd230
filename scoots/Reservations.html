@@ -50,8 +50,7 @@
             <fieldset>
                 <legend>Rental Information</legend>
                 <label>Rental Start Date <input type="Date" id="start" required></label>
-                <label>Number of Days <input type="text" id="numD" required></label>
-                <label>Number of Hours Needed <imput type=</label>
+                <label>Number of Days/Hours Needed <input type="text" id="numD" pattern="[0-9]*" required></label>
                 <label for="type">Type of Vehicle</label>
                 <select name="type" id="type">
                     <option value="Honda Metro Scooter">Honda Metro Scooter</option>
@@ -70,6 +69,7 @@
                 <legend>Special Accommodations</legend>
                 <label>Accessibility <input type="text" placeholder="e.g., wheelchair access, sign language interpreter..."></label>
             </fieldset>
+            <div id="error-message"></div>
             <button>Place Your Reservation</button>
         </form>
     </div>    
