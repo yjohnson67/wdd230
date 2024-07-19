@@ -177,33 +177,47 @@ footer p{
 }
 
 /*table*/
-
+ 
 table {
     margin: 10px auto;
-    border: thin solid var(--accent1-color);
+    border: 2px solid var(--secondary-color);
     box-shadow: 0 0 10px var(--accent1-color);
     border-collapse: collapse;
 }
-
+ 
     tr:second-child th, #empty{
     background-color: var(--primary-color);
-    color: var(--secondary-color);
     border: 1px solid var(--primary-color);
 }
-
+ 
 th, td {
     padding: 7px 15px;
     border: 1px solid var(--accent1-color);
 }
-
+ 
 th, td {
     padding: 7px 15px;
     border: 1px solid var(--accent1-color);
 }
-
+ 
 th, td {
     padding: 7px 15px;
-    border: 1px solid #d4d4d4; /* Example color */
+    border: 1px solid var(--secondary-color);
+}
+ 
+th {
+	background-color: floralwhite;
+	font-size: larger;
+    color: var(--secondary-color);
+}
+ 
+tr:first-child th {
+	background-color: var(--secondary-color);
+	color: white;
+}
+ 
+tbody tr:nth-child(even) {
+	background-color: floralwhite;
 }
 
 /*Reservations*/

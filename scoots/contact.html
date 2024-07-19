@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoots Rental</title>
+    <title>Contact Us</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name ="desctiption" content="Scoots Rental Website">
+    <meta name ="desctiption" content="Contact Us">
     <meta name="author" content="Yvette Johnson">
     <!--Styles-->
     <link rel="stylesheet" href="styles/normalize.css">
@@ -39,21 +39,23 @@
         <nav class="navigation">
             <button id="menu"></button>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="a">Rentals</a></li>
-                <li><a href="#">Reservations</a></li>
-                <li><a href="#">Contact</a><li>
+                <li><a href="https://yjohnson67.github.io/wdd230/scoots/home.html">Home</a></li>
+                <li><a href="https://yjohnson67.github.io/wdd230/scoots/rentals.html">Rentals</a></li>
+                <li><a href="https://yjohnson67.github.io/wdd230/scoots/Reservations.html">Reservations</a></li>
+                <li><a href="https://yjohnson67.github.io/wdd230/scoots/contact.html" class="active">Contact</a><li>
             </ul>
         </nav>
            <p>Looking to rent a vechile for your next trip/adventure or need some assistance with your current rental?  If you have any questions or comments please feel free to contact us today through the form below, we will get back to you as soon as possible.</p>
-           <fieldset>
-                <label>Full name <input type="text" name="fname" required></label>
-                <label>Phone <input type="tel" name="tel" placeholder="+52.800.726.6837"required></label>
-                <label>Email <input type="email" name="email" placeholder="helloworld@email.com" required></label>
-                <label>Comment: We value your feedback!  We would love to hear about your experience here at Scoots.  Please take a moment to comment and let us know how we did.  The insights your prodive help us to continually improve to better serve you and others.  Thank you for choosing us for your rental needs.</label>
-                <textarea rows="8" cols="80" name="comment" placeholder="Comment" required></textarea>
-                <button id="submit">Share Your Thoughts</button>
-           </fieldset>
+           <form id = "conInfo">
+                <fieldset>
+                    <label>Full name <input type="text" name="fname" required></label>
+                    <label>Phone <input type="tel" name="tel" placeholder="+52.800.726.6837"required></label>
+                    <label>Email <input type="email" name="email" placeholder="helloworld@email.com" required></label>
+                    <label>Comment: We value your feedback!  We would love to hear about your experience here at Scoots.  Please take a moment to comment and let us know how we did.  The insights your prodive help us to continually improve to better serve you and others.  Thank you for choosing us for your rental needs.</label>
+                    <textarea rows="8" cols="80" name="comment" placeholder="Comment" required></textarea>
+                    <button id="submit">Share Your Thoughts</button>
+                </fieldset>
+            </form>
            <div id="map">
                 <h3>Our Locations</h3>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239170.92941509336!2d-87.50610251328125!3d20.5043498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e47523e8c3e7d%3A0x6fd99e82063a168c!2sCar%20Rental%20Puerto%20Aventuras%20Auto%20de%20Renta%20PA!5e0!3m2!1sen!2sus!4v1721177958429!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
