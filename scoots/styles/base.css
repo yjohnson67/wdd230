@@ -101,13 +101,14 @@ header h1 {
 	margin-bottom: 1rem;
 }
  
-#hero h2 , #local h2{
+#hero h2 , #local h2, #info h2, #tpage h2{
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin: 0.75rem;
 }
  
-#hero p, #local p, #options section li {
+#hero p, #local p, #options section li, 
+#home p, #info p, #navagation p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin: 0.75rem;
@@ -221,43 +222,39 @@ tbody tr:nth-child(even) {
 }
 
 /*Reservations*/
-#resform fieldset {
+#resform fieldset,
+#conInfo fieldset {
     margin: 1rem;
     border: 2px dashed var(--secondary-color);
     border-radius: 6px;
     padding: .5rem 2%;
 }
- 
 #resform legend {    
     color: var(--secondary-color);
     padding: 0.5rem;
     font-family: var(--heading-font);
 }
- 
 #resform label, 
-.news label{
+#conInfo label{
     display: block;
     padding: 1rem;
     color: var(--secondary-color);
     font-size: .9rem;
     font-family: var(--paragraph-font);
 }
- 
 textarea {
     width:100%;
     margin:5px 0;
     padding:3px;
     background-color: var(--accent1-color);
     border-radius: 6px;
- 
 }
- 
-#resform input[type="text"],
 #resform input[type="text"],
 #resform input[type="tel"],
-#resform input[type="text"],
-.news input[type="email"],
-.news input[type="text"] {
+#resform input[type="email"],
+#conInfo input[type="text"],
+#conInfo input[type="tel"],
+#conInfo input[type="email"] {
     background-color: var(--accent1-color);
     display: block;
     border-radius: 6px;
@@ -267,8 +264,7 @@ textarea {
     max-width: 400px;
     appearance: none;
 }
- 
- 
+
 .radio:hover{
     border: 2px solid var(--secondary-color);
     border-radius: 1rem;
@@ -277,9 +273,8 @@ textarea {
     font-size: large;
     width: 10rem;
 }
- 
 #resform input[type=submit],
-.news input[type=submit]{
+#conInfo input[type=submit]{
     border: none;
     background-color: var(--secondary-color);
     color: var(--accent2-color);
@@ -291,9 +286,7 @@ textarea {
     margin: 1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px #999;
 }
- 
 #resform input[type="radio"] {
- 
 }
 
 #error-message{
