@@ -6,7 +6,7 @@
                     "rentalType": "Honda Metro Scooter",
                     "maxPersons": "1",
                     "reservationsHalf": "$20",
-                    "reservationsFull": "#30",
+                    "reservationsFull": "$30",
                     "walkInHalf": "$25",
                     "walkInFull": "$35"
                 },
@@ -14,7 +14,7 @@
                     "rentalType": "Honda Dio Scooter",
                     "maxPersons": "2",
                     "reservationsHalf": "$30",
-                    "reservationsFull": "#40",
+                    "reservationsFull": "$40",
                     "walkInHalf": "$35",
                     "walkInFull": "$45"
                 },
@@ -22,7 +22,7 @@
                     "rentalType": "Honda PCX150 Scooter",
                     "maxPersons": "2",
                     "reservationsHalf": "$40",
-                    "reservationsFull": "#50",
+                    "reservationsFull": "$50",
                     "walkInHalf": "$45",
                     "walkInFull": "$55"
                 },
@@ -30,7 +30,7 @@
                     "rentalType": "Honda Pioneer ATV",
                     "maxPersons": "4",
                     "reservationsHalf": "$50",
-                    "reservationsFull": "#70",
+                    "reservationsFull": "$70",
                     "walkInHalf": "$60",
                     "walkInFull": "$80"
                 },
@@ -38,7 +38,7 @@
                     "rentalType": "Jeep Wrangler - 4 door with A/c",
                     "maxPersons": "5",
                     "reservationsHalf": "$70",
-                    "reservationsFull": "#100",
+                    "reservationsFull": "$100",
                     "walkInHalf": "$85",
                     "walkInFull": "$125"
                 },
@@ -46,7 +46,7 @@
                     "rentalType": "Jeep Wrangler - 2 door",
                     "maxPersons": "4",
                     "reservationsHalf": "$60",
-                    "reservationsFull": "#85",
+                    "reservationsFull": "$85",
                     "walkInHalf": "$70",
                     "walkInFull": "$90"
                 }

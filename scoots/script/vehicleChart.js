@@ -7,7 +7,7 @@ async function getCont() {
         const data = await response.json();
         console.log(data);
         //Access the right array
-        let dataCont = data ['vehicles'][0]['vehicles'];
+        let dataCont = data ['vehicles'][0]['vehicle'];
         //Clear existing rows
         chart.innerHTML = '';
  
