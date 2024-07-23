@@ -56,6 +56,11 @@ header h1 {
     font-weight: bold;
     text-transform: uppercase;    
 }
+
+.navigation a:hover {
+    text-decoration: underline;
+    color: white;
+}
  
 /* HAMBURGER */
 #menu {
