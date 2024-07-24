@@ -36,5 +36,8 @@
     iframe {
         height: 18rem;
     }
+    #hero img {
+        margin-top: -6rem;
+    }
 }
     
