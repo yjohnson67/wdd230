@@ -244,7 +244,7 @@ textarea {
     width:100%;
     margin:5px 0;
     padding:3px;
-    background-color: var(--secondary-color);
+    background-color: white;
     border-radius: 6px;
 }
 #resform input[type="text"],
@@ -264,7 +264,7 @@ textarea {
 }
 
 .radio:hover{
-    background-color: var(--secondary-color);
+    background-color: white;
     font-family: var(--heading-font);
     font-size: large;
     width: 10rem;
