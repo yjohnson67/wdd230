@@ -143,7 +143,7 @@ header h1 {
 }
  
 #local section h3, #options section h3 {
-    font-family: var(--primary-color);
+    font-family: var(--heading-font);
     color: var(--primary-color);
     margin: 0.75rem;
 }
@@ -162,7 +162,7 @@ footer {
 }
  
 footer h3 {
-    font-family: var(--accent-color2);
+    font-family: var(--heading-font);
     color: white;
     margin: 0.75rem;
 }
