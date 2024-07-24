@@ -205,17 +205,7 @@ th, td {
     padding: 7px 15px;
     border: 1px solid var(--accent1-color);
 }
- 
-th, td {
-    padding: 7px 15px;
-    border: 1px solid var(--accent1-color);
-}
- 
-th, td {
-    padding: 7px 15px;
-    border: 1px solid var(--secondary-color);
-}
- 
+
 th {
 	background-color: floralwhite;
 	font-size: larger;
@@ -237,7 +227,7 @@ tbody tr:nth-child(even) {
     margin: 1rem;
     border: 2px dashed var(--secondary-color);
     border-radius: 6px;
-    padding: .5rem 2%;
+    padding: 0.5rem 2%;
 }
 #resform legend {    
     color: var(--secondary-color);
@@ -304,7 +294,7 @@ textarea {
 #error-message{
     color:var(--secondary-color);
     font-family: var(--paragraph-font);
-    margin: 0.25rem 1 rem;
+    margin: 0.25rem 1rem;
 }
 
 #p {
