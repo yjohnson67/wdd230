@@ -117,7 +117,7 @@ header h1 {
 }
  
 #hero p, #local p, #options section li, 
-#home p, #info p, #navagation p {
+#home main p, #info p, #navagation p {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
     margin: 0.75rem;
