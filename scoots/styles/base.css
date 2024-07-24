@@ -192,18 +192,13 @@ footer p{
 table {
     margin: 10px auto;
     border: 2px solid var(--secondary-color);
-    box-shadow: 0 0 10px var(--accent1-color);
+    box-shadow: 0 0 10px var(--primary-color);
     border-collapse: collapse;
 }
- 
-    tr:second-child th, #empty{
-    background-color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-}
- 
+
 th, td {
     padding: 7px 15px;
-    border: 1px solid var(--accent1-color);
+    border: 1px solid var(--secondary-color);
 }
 
 th {
@@ -249,7 +244,7 @@ textarea {
     width:100%;
     margin:5px 0;
     padding:3px;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     border-radius: 6px;
 }
 #resform input[type="text"],
@@ -258,18 +253,18 @@ textarea {
 #conInfo input[type="text"],
 #conInfo input[type="tel"],
 #conInfo input[type="email"] {
-    background-color: var(--accent1-color);
+    background-color: white;
     display: block;
     border-radius: 6px;
     padding: .5rem;
-    color: var(--accent3-color);
+    color: var(--secondary-color);
     width: 100%;
     max-width: 400px;
     appearance: none;
 }
 
 .radio:hover{
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     font-family: var(--heading-font);
     font-size: large;
     width: 10rem;
